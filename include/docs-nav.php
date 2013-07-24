@@ -40,7 +40,8 @@
                   <ul class="dropdown-menu">
 			          <li><a href="/booted-beta/docs/font-awesome-example.php">Font Awesome Documentation</a></li>
 			          <li><a href="/booted-beta/docs/font-awesome-icons.php">Font Awesome Icons</a></li>
-			          <li  class=""><a href="/booted-beta/docs/metro-buttons.php">Metro buttons</a></li>
+			          <li  class=""><a href="/booted-beta/docs/metro-buttons.php">Metro Buttons</a></li>
+			          <li  class=""><a href="/booted-beta/docs/metro-forms.php">Metro Forms</a></li>
 			          <li><a href="/booted-beta/docs/form-helpers.php" >Form Helpers</a></li>
                   </ul>
                 </li>

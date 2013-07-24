@@ -56,7 +56,7 @@
 
 <!-- Subhead
   ================================================== -->
-  <div class="jumbotron masthead">
+  <div class="jumbotron subhead">
     <div class="container">
       <h1>Form Helpers</h1>
       <p class="lead">Extend Bootstrap's components—now with 12 custom jQuery plugins.</p>
@@ -64,7 +64,7 @@
     </div>
   </div>
   
-  
+  <!--
   <div class="bs-docs-social">
     <div class="container">
       <ul class="bs-docs-social-buttons">
@@ -83,7 +83,7 @@
       </ul>
     </div>
   </div>
-
+  -->
   <div class="container">
 
     <!-- Docs nav

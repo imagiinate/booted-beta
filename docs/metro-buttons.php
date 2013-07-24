@@ -12,7 +12,11 @@
     <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="../assets/css/bs-docs.css" rel="stylesheet">
     <link href="../assets/js/google-code-prettify/prettify.css" rel="stylesheet">
-
+    
+    <link href="../assets/css/metro-buttons/m-buttons.css" rel="stylesheet">
+    <link href="../assets/css/metro-buttons/m-forms.css" rel="stylesheet">
+    <link href="../assets/css/metro-buttons/m-icons.css" rel="stylesheet">
+    
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="../assets/js/html5shiv.js"></script>
@@ -404,7 +408,8 @@
     <script src="../assets/js/holder/holder.js"></script>
     <script src="../assets/js/google-code-prettify/prettify.js"></script>
     <script src="../assets/js/application.js"></script>
-
-
+    
+    <script src="../assets/js/metro-buttons/m-dropdown.js"></script>
+	<script src="../assets/js/metro-buttons/m-radio.js"></script>
   </body>
 </html>
