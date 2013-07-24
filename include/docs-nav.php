@@ -1,3 +1,5 @@
+	
+	
 	<!-- Navbar
     ================================================== -->
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -38,7 +40,7 @@
                   <ul class="dropdown-menu">
 			          <li><a href="/booted-beta/docs/font-awesome-example.php">Font Awesome Documentation</a></li>
 			          <li><a href="/booted-beta/docs/font-awesome-icons.php">Font Awesome Icons</a></li>
-			          <li  class=""><a href="./metro-buttons.php">Metro buttons</a></li>
+			          <li  class=""><a href="/booted-beta/docs/metro-buttons.php">Metro buttons</a></li>
 			          <li><a href="/booted-beta/docs/form-helpers.php" >Form Helpers</a></li>
                   </ul>
                 </li>
@@ -48,19 +50,19 @@
 		            <ul class="dropdown-menu" id="swatch-menu">
 		              <li><a href="/booted-beta/index.php">Default Twittstrap</a></li>
 		              <li class="divider"></li>
-		              <li><a href="/amelia/">Amelia</a></li>
-		              <li><a href="/cerulean/">Cerulean</a></li>
-		              <li><a href="/cosmo/">Cosmo</a></li>
-		              <li><a href="/cyborg/">Cyborg</a></li>
-		              <li><a href="/flatly/">Flatly</a></li>
-		              <li><a href="/journal/">Journal</a></li>
-		              <li><a href="/readable/">Readable</a></li>
-		              <li><a href="/simplex/">Simplex</a></li>
-		              <li><a href="/slate/">Slate</a></li>
-		              <li><a href="/spacelab/">Spacelab</a></li>
-		              <li><a href="/spruce/">Spruce</a></li>
-		              <li><a href="/superhero/">Superhero</a></li>
-		              <li><a href="/united/">United</a></li>
+		              <li><a href="/booted-beta/themes/amelia.php">Amelia</a></li>
+		              <li><a href="/booted-beta/themes/cerulean.php">Cerulean</a></li>
+		              <li><a href="/booted-beta/themes/cosmo.php">Cosmo</a></li>
+		              <li><a href="/booted-beta/themes/cyborg.php">Cyborg</a></li>
+		              <li><a href="/booted-beta/themes/flatly.php">Flatly</a></li>
+		              <li><a href="/booted-beta/themes/journal.php">Journal</a></li>
+		              <li><a href="/booted-beta/themes/readable.php">Readable</a></li>
+		              <li><a href="/booted-beta/themes/simplex.php">Simplex</a></li>
+		              <li><a href="/booted-beta/themes/slate.php">Slate</a></li>
+		              <li><a href="/booted-beta/themes/spacelab.php">Spacelab</a></li>
+		              <li><a href="/booted-beta/themes/spruce.php">Spruce</a></li>
+		              <li><a href="/booted-beta/themes/superhero.php">Superhero</a></li>
+		              <li><a href="/booted-beta/themes/united.php">United</a></li>
 		            </ul>
 		          </li>
               

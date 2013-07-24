@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link href="/booted-beta/assets/css/twittstrap.css" rel="stylesheet">
+    <link href="/booted-beta/assets/css/bootstrap.css" rel="stylesheet">
     <link href="/booted-beta/assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="assets/css/custom.css" rel="stylesheet">
     <!--[if lt IE 9]>
@@ -20,7 +20,7 @@
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   </head>
 
-  <body>
+  <body style="margin-top: 0px;">
     
     <?php include '../../include/docs-nav.php'; ?>
     

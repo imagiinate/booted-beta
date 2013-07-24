@@ -12,12 +12,12 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="assets/css/bs-docs.css" rel="stylesheet">
-    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="/booted-beta/assets/css/themes/cyborg.css" rel="stylesheet">
+    <link href="/booted-beta/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/booted-beta/assets/css/bs-docs.css" rel="stylesheet">
+    <link href="/booted-beta/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
     
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <!--<link href="/booted-beta/assets/css/font-awesome.min.css" rel="stylesheet">-->
     
     
    
@@ -25,7 +25,7 @@
 
   <body class="preview" id="top" data-spy="scroll" data-target=".subnav" data-offset="80">
 	  
-<?php include 'include/docs-nav.php'; ?>
+<?php include '../include/docs-nav.php'; ?>
 
 
 <!-- Subhead
@@ -33,28 +33,28 @@
 <header class="jumbotron subhead" id="overview">
   <div class="container container-fluid">
     <div class="row-fluid">
-      <h1>Booted - Twittstrapp</h1>
+      <h1>Booted - Cyborg</h1>
       <!-- <p class="lead">Batman meets... Aquaman?</p> -->
     </div>
     
   </div>
-  <div class="subnav container container-fluid">
-    <ul class="nav nav-pills">
-      <li><a href="#typography">Typography</a></li>
-      <li><a href="#navbar">Navbar</a></li>
-      <li><a href="#buttons">Buttons</a></li>
-      <li><a href="#forms">Forms</a></li>
-      <li><a href="#tables">Tables</a></li>
-      <li><a href="#miscellaneous">Miscellaneous</a></li>
-    </ul>
-  </div>
+  
 </header>
 
   
 
-    <div class="container">
+     <div class="container">
 
-
+	    	<div class="subnav container container-fluid">
+			    <ul class="nav nav-pills">
+			      <li><a href="#typography">Typography</a></li>
+			      <li><a href="#navbar">Navbar</a></li>
+			      <li><a href="#buttons">Buttons</a></li>
+			      <li><a href="#forms">Forms</a></li>
+			      <li><a href="#tables">Tables</a></li>
+			      <li><a href="#miscellaneous">Miscellaneous</a></li>
+			    </ul>
+			  </div>
 
 
 <!-- Typography
@@ -826,25 +826,25 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap-transition.js"></script>
-    <script src="assets/js/bootstrap-alert.js"></script>
-    <script src="assets/js/bootstrap-modal.js"></script>
-    <script src="assets/js/bootstrap-dropdown.js"></script>
-    <script src="assets/js/bootstrap-scrollspy.js"></script>
-    <script src="assets/js/bootstrap-tab.js"></script>
-    <script src="assets/js/bootstrap-tooltip.js"></script>
-    <script src="assets/js/bootstrap-popover.js"></script>
-    <script src="assets/js/bootstrap-button.js"></script>
-    <script src="assets/js/bootstrap-collapse.js"></script>
-    <script src="assets/js/bootstrap-carousel.js"></script>
-    <script src="assets/js/bootstrap-typeahead.js"></script>
-    <script src="assets/js/bootstrap-affix.js"></script>
+    <script src="/booted-beta/assets/js/jquery.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-transition.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-alert.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-modal.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-dropdown.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-tab.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-tooltip.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-popover.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-button.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-collapse.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-carousel.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-typeahead.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-affix.js"></script>
 
-    <script src="assets/js/holder/holder.js"></script>
-    <script src="assets/js/google-code-prettify/prettify.js"></script>
+    <script src="/booted-beta/assets/js/holder/holder.js"></script>
+    <script src="/booted-beta/assets/js/google-code-prettify/prettify.js"></script>
 
-    <script src="assets/js/application.js"></script>
+    <script src="/booted-beta/assets/js/application.js"></script>
 
 
   </body>
