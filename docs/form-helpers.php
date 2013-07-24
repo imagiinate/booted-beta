@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="a responsive web template built with twitter bootstrap, using LESS CSS and managed through github">
     <meta name="author" content="imagiinate.com">
-
+    <meta name="keywords" content="jquery,jquery plugins,twitter bootstrap,bootstrap form,bootstrap form helpers,states,states list">
     <!-- Le styles -->
     <link href="../assets/css/twittstrap.css" rel="stylesheet">
     <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
@@ -18,7 +18,8 @@
     <link href="../assets/css/bootstrap-formhelpers.css" rel="stylesheet">
     <link href="../assets/css/bootstrap-formhelpers-countries.flags.css" rel="stylesheet">
     <link href="../assets/css/bootstrap-formhelpers-currencies.flags.css" rel="stylesheet">
-    <link href="../assets/css/form-helpers-docs.css" rel="stylesheet">
+    
+<!--     <link href="../assets/css/form-helpers-docs.css" rel="stylesheet"> -->
     <link href="../assets/js/google-code-prettify/prettify.css" rel="stylesheet">
     
     
@@ -57,13 +58,9 @@
   ================================================== -->
   <div class="jumbotron masthead">
     <div class="container">
-      <h1>Bootstrap Form Helpers</h1>
+      <h1>Form Helpers</h1>
       <p class="lead">Extend Bootstrap's components—now with 12 custom jQuery plugins.</p>
-      <p><a href="https://github.com/vlamanna/BootstrapFormHelpers/zipball/master" class="btn btn-primary btn-large">Download Bootstrap Form Helpers</a></p>
-      <ul class="masthead-links">
-        <li><a href="http://github.com/vlamanna/BootstrapFormHelpers">GitHub project</a></li>
-        <li>Version 1.8.2</li>
-      </ul>
+      
     </div>
   </div>
   
@@ -95,18 +92,18 @@
       <div class="span3 bs-docs-sidebar">
         <ul class="nav nav-list bs-docs-sidenav affix-top" data-spy="affix" data-offset-top="502" data-offset-bottom="250">
           <li><a href="#overview"><i class="icon-chevron-right"></i> Overview</a></li>
-          <li><a href="#select"><i class="icon-chevron-right"></i> Select Box</a></li>
-          <li><a href="#country"><i class="icon-chevron-right"></i> Countries</a></li>
-          <li><a href="#state"><i class="icon-chevron-right"></i> States</a></li>
-          <li><a href="#currency"><i class="icon-chevron-right"></i> Currencies</a></li>
+          <li><a href="#selectbox"><i class="icon-chevron-right"></i> Select Box</a></li>
+          <li><a href="#countries"><i class="icon-chevron-right"></i> Countries</a></li>
+          <li><a href="#states"><i class="icon-chevron-right"></i> States</a></li>
+          <li><a href="#currencies"><i class="icon-chevron-right"></i> Currencies</a></li>
           <li><a href="#phone"><i class="icon-chevron-right"></i> Phone</a></li>
-          <li><a href="#language"><i class="icon-chevron-right"></i> Languages</a></li>
-          <li><a href="#timezone"><i class="icon-chevron-right"></i> Timezones</a></li>
-          <li><a href="#googlefont"><i class="icon-chevron-right"></i> Google Fonts</a></li>
+          <li><a href="#languages"><i class="icon-chevron-right"></i> Languages</a></li>
+          <li><a href="#timezones"><i class="icon-chevron-right"></i> Timezones</a></li>
+          <li><a href="#googlefonts"><i class="icon-chevron-right"></i> Google Fonts</a></li>
           <li><a href="#datepicker"><i class="icon-chevron-right"></i> Date Picker</a></li>
           <li><a href="#timepicker"><i class="icon-chevron-right"></i> Time Picker</a></li>
-          <li><a href="#font"><i class="icon-chevron-right"></i> Fonts</a></li>
-          <li><a href="#fontsize"><i class="icon-chevron-right"></i> Font Sizes</a></li>
+          <li><a href="#fonts"><i class="icon-chevron-right"></i> Fonts</a></li>
+          <li><a href="#fontsizes"><i class="icon-chevron-right"></i> Font Sizes</a></li>
         </ul>
       </div>
       <div class="span9">
@@ -116,7 +113,7 @@
         ================================================== -->
         <section id="overview">
           <div class="page-header">
-            <h1>Bootstrap Form Helpers</h1>
+            <h1>OVERVIEW :) Bootstrap Form Helpers</h1>
           </div>
           
           <p>These components are based on <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a>.</p>
@@ -922,6 +919,140 @@
         </section>
         
         
+        
+        <!-- Date Picker
+        ================================================== -->
+        <section id="datepicker">
+          <div class="page-header">
+            <h1>Date Picker <small>bootstrap-formhelpers-datepicker.js</small></h1>
+          </div>
+          
+          <h3>About Date Picker</h3>
+          <p>For adding a date picker, include bootstrap-formhelpers-datepicker.{language}.js and bootstrap-formhelpers-datepicker.js once alongside the other JS files.</p>
+          <h3>Use cases</h3>
+
+          <p>Simplest example.</p>
+          <form class="bs-docs-example form-inline">
+            <div class="bfh-datepicker">
+              <div class="input-prepend bfh-datepicker-toggle" data-toggle="bfh-datepicker">
+                <span class="add-on"><i class="icon-calendar"></i></span>
+                <input type="text" class="input-medium" readonly>
+              </div>
+              <div class="bfh-datepicker-calendar">
+                <table class="calendar table table-bordered">
+                  <thead>
+                    <tr class="months-header">
+                      <th class="month" colspan="4">
+                        <a class="previous" href="#"><i class="icon-chevron-left"></i></a>
+                        <span></span>
+                        <a class="next" href="#"><i class="icon-chevron-right"></i></a>
+                      </th>
+                      <th class="year" colspan="3">
+                        <a class="previous" href="#"><i class="icon-chevron-left"></i></a>
+                        <span></span>
+                        <a class="next" href="#"><i class="icon-chevron-right"></i></a>
+                      </th>
+                    </tr>
+                    <tr class="days-header">
+                    </tr>
+                  </thead>
+                  <tbody>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </form>
+          <pre class="prettyprint">&lt;div class="bfh-datepicker"&gt;
+  &lt;div class="input-prepend bfh-datepicker-toggle" data-toggle="bfh-datepicker"&gt;
+    &lt;span class="add-on"&gt;&lt;i class="icon-calendar"&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;input type="text" class="input-medium" readonly&gt;
+  &lt;/div&gt;
+  &lt;div class="bfh-datepicker-calendar"&gt;
+    &lt;table class="calendar table table-bordered"&gt;
+      &lt;thead&gt;
+        &lt;tr class="months-header"&gt;
+          &lt;th class="month" colspan="4"&gt;
+            &lt;a class="previous" href="#"&gt;&lt;i class="icon-chevron-left"&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;span&gt;&lt;/span&gt;
+            &lt;a class="next" href="#"&gt;&lt;i class="icon-chevron-right"&gt;&lt;/i&gt;&lt;/a&gt;
+          &lt;/th&gt;
+          &lt;th class="year" colspan="3"&gt;
+            &lt;a class="previous" href="#"&gt;&lt;i class="icon-chevron-left"&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;span&gt;&lt;/span&gt;
+            &lt;a class="next" href="#"&gt;&lt;i class="icon-chevron-right"&gt;&lt;/i&gt;&lt;/a&gt;
+          &lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr class="days-header"&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</pre>
+
+          <p>Example showing how to set a default date and format.</p>
+          <form class="bs-docs-example form-inline">
+            <div class="bfh-datepicker" data-format="y-m-d" data-date="2000-01-01">
+              <div class="input-prepend bfh-datepicker-toggle" data-toggle="bfh-datepicker">
+                <span class="add-on"><i class="icon-calendar"></i></span>
+                <input type="text" class="input-medium" readonly>
+              </div>
+              <div class="bfh-datepicker-calendar">
+                <table class="calendar table table-bordered">
+                  <thead>
+                    <tr class="months-header">
+                      <th class="month" colspan="4">
+                        <a class="previous" href="#"><i class="icon-chevron-left"></i></a>
+                        <span></span>
+                        <a class="next" href="#"><i class="icon-chevron-right"></i></a>
+                      </th>
+                      <th class="year" colspan="3">
+                        <a class="previous" href="#"><i class="icon-chevron-left"></i></a>
+                        <span></span>
+                        <a class="next" href="#"><i class="icon-chevron-right"></i></a>
+                      </th>
+                    </tr>
+                    <tr class="days-header">
+                    </tr>
+                  </thead>
+                  <tbody>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </form>
+          <pre class="prettyprint">&lt;div class="bfh-datepicker" data-format="y-m-d" data-date="2000-01-01"&gt;
+  &lt;div class="input-prepend bfh-datepicker-toggle" data-toggle="bfh-datepicker"&gt;
+    &lt;span class="add-on"&gt;&lt;i class="icon-calendar"&gt;&lt;/i&gt;&lt;/span&gt;
+    &lt;input type="text" class="input-medium" readonly&gt;
+  &lt;/div&gt;
+  &lt;div class="bfh-datepicker-calendar"&gt;
+    &lt;table class="calendar table table-bordered"&gt;
+      &lt;thead&gt;
+        &lt;tr class="months-header"&gt;
+          &lt;th class="month" colspan="4"&gt;
+            &lt;a class="previous" href="#"&gt;&lt;i class="icon-chevron-left"&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;span&gt;&lt;/span&gt;
+            &lt;a class="next" href="#"&gt;&lt;i class="icon-chevron-right"&gt;&lt;/i&gt;&lt;/a&gt;
+          &lt;/th&gt;
+          &lt;th class="year" colspan="3"&gt;
+            &lt;a class="previous" href="#"&gt;&lt;i class="icon-chevron-left"&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;span&gt;&lt;/span&gt;
+            &lt;a class="next" href="#"&gt;&lt;i class="icon-chevron-right"&gt;&lt;/i&gt;&lt;/a&gt;
+          &lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr class="days-header"&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</pre>
+
+        </section>
+        
         <!-- Time Picker
         ================================================== -->
         <section id="timepicker">
@@ -1159,7 +1290,8 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    
+    
     <script src="../assets/js/jquery.js"></script>
     <script src="../assets/js/bootstrap-transition.js"></script>
     <script src="../assets/js/bootstrap-alert.js"></script>
@@ -1174,22 +1306,10 @@
     <script src="../assets/js/bootstrap-carousel.js"></script>
     <script src="../assets/js/bootstrap-typeahead.js"></script>
     <script src="../assets/js/bootstrap-affix.js"></script>
-
-    <script src="../assets/js/holder/holder.js"></script>
-    <script src="../assets/js/google-code-prettify/prettify.js"></script>
-
-    <script src="../assets/js/application.js"></script>
-    
-    
     
     <script src="../assets/js/form-helpers/bootstrap-formhelpers-selectbox.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-states.en_US.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-states.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-countries.en_US.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-countries.js"></script>
     <script src="../assets/js/form-helpers/bootstrap-formhelpers-languages.codes.js"></script>
     <script src="../assets/js/form-helpers/bootstrap-formhelpers-languages.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-currencies.en_US.js"></script>
     <script src="../assets/js/form-helpers/bootstrap-formhelpers-currencies.js"></script>
     <script src="../assets/js/form-helpers/bootstrap-formhelpers-fonts.codes.js"></script>
     <script src="../assets/js/form-helpers/bootstrap-formhelpers-fonts.js"></script>
@@ -1200,10 +1320,29 @@
     <script src="../assets/js/form-helpers/bootstrap-formhelpers-datepicker.en_US.js"></script>
     <script src="../assets/js/form-helpers/bootstrap-formhelpers-datepicker.js"></script>
     <script src="../assets/js/form-helpers/bootstrap-formhelpers-timepicker.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-timezones.codes.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-timezones.js"></script>
     <script src="../assets/js/form-helpers/bootstrap-formhelpers-phone.format.js"></script>
     <script src="../assets/js/form-helpers/bootstrap-formhelpers-phone.js"></script>
+    
+    
+    <script src="../assets/js/form-helpers/bootstrap-formhelpers-countries.js"></script>
+    <script src="../assets/js/form-helpers/bootstrap-formhelpers-countries.en_US.js"></script>
+    
+    
+    <script src="../assets/js/form-helpers/bootstrap-formhelpers-currencies.en_US.js"></script>
+    <script src="../assets/js/form-helpers/bootstrap-formhelpers-states.en_US.js"></script>
+    <script src="../assets/js/form-helpers/bootstrap-formhelpers-states.js"></script>
+    
+    
+    <script src="../assets/js/holder/holder.js"></script>
+    <script src="../assets/js/google-code-prettify/prettify.js"></script>
 
+    <script src="../assets/js/application.js"></script>
+    <script src="../assets/js/form-helpers/bootstrap-formhelpers-timezones.codes.js"></script>
+    <script src="../assets/js/form-helpers/bootstrap-formhelpers-timezones.js"></script>
+    
+    
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    
+    
   </body>
 </html>

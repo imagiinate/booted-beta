@@ -7,8 +7,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link href="assets/css/lib/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/lib/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="/booted-beta/assets/css/twittstrap.css" rel="stylesheet">
+    <link href="/booted-beta/assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="assets/css/custom.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -24,6 +24,14 @@
     
     <?php include '../../include/docs-nav.php'; ?>
     
+    <header class="jumbotron subhead" id="overview">
+	  <div class="container">
+	    <h1>Form Builder</h1>
+	    <p class="lead">After you get up and running, you can place Font Awesome icons just about anywhere with the <code>&lt;i&gt;</code> tag. Many examples appreciatively re-used from the Bootstrap documentation. .</p>
+	  </div>
+	</header>
+	
+
     <div class="container">
       <div class="row clearfix">
         <!-- Building Form. -->

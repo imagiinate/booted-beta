@@ -48,9 +48,9 @@
   border: 1px solid rgba(0, 0, 0, 0.2);
   *border-right-width: 2px;
   *border-bottom-width: 2px;
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
+  -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
      -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
           box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -75,9 +75,9 @@
   background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
   background-image: -o-linear-gradient(top, #0088cc, #0077b3);
   background-image: linear-gradient(to bottom, #0088cc, #0077b3);
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
+  -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
 }
 
 .bfh-selectbox-options ul::-webkit-scrollbar-button {
@@ -100,9 +100,9 @@
   color: #333333;
   white-space: nowrap;
   text-decoration: none;
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
+  -webkit-border-radius: 0px;
+     -moz-border-radius: 0px;
+          border-radius: 0px;
 }
 
 .bfh-googlefonts .bfh-selectbox-options a {
@@ -185,9 +185,9 @@
   background-color: white;
   border: 1px solid #CCC;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
 }
 
 .bfh-selectbox-options ul {
