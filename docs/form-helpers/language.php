@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en"><head>
     <meta charset="utf-8">
-    <title>Timezone List - Bootstrap Form Helpers</title>
+    <title>Language List - Bootstrap Form Helpers</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Extend Bootstrap's components with timezones lists.">
-    <meta name="keywords" content="jquery,jquery plugins,twitter bootstrap,bootstrap form,bootstrap form helpers,timezones,timezones list">
+    <meta name="description" content="Extend Bootstrap's components with languages lists.">
+    <meta name="keywords" content="jquery,jquery plugins,twitter bootstrap,bootstrap form,bootstrap form helpers,languages,languages list">
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="../../assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../../assets/css/twittstrap.css" rel="stylesheet">
     <link href="../../assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="../../assets/css/bootstrap-formhelpers.css" rel="stylesheet">
     <link href="../../assets/css/bootstrap-formhelpers-countries.flags.css" rel="stylesheet">
     <link href="../../assets/css/bootstrap-formhelpers-currencies.flags.css" rel="stylesheet">
-    <link href="../../assets/css/docs.css" rel="stylesheet">
+    <link href="../../assets/css/form-helpers-docs.css" rel="stylesheet">
     <link href="../../assets/js/google-code-prettify/prettify.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -27,7 +27,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="../../assets/ico/apple-touch-icon-57-precomposed.png">
-
+    
   </head>
 
   <body data-spy="scroll" data-target=".bs-docs-sidebar">
@@ -111,34 +111,34 @@
       </div>
       <div class="span9">
 
-        <!-- Timezones
+        <!-- Languages
         ================================================== -->
-        <section id="timezones">
+        <section id="languages">
           <div class="page-header">
-            <h1>Timezones <small>bootstrap-formhelpers-timezones.js</small></h1>
+            <h1>Languages <small>bootstrap-formhelpers-languages.js</small></h1>
           </div>
           
-          <h3>About timezones</h3>
-          <p>For adding a drop-down of timezones of a country from country code, include bootstrap-formhelpers-timezones.codes.js and bootstrap-formhelpers-timezones.js once alongside the other JS files.</p>
+          <h3>About Languages</h3>
+          <p>For adding a drop-down of languages or display languages name from language code, include bootstrap-formhelpers-languages.codes.js and bootstrap-formhelpers-languages.js once alongside the other JS files.</p>
+          <p>If you want to have access to the country names, you can include bootstrap-formhelpers-countries.{language}.js</p>
+          <p>If you want to have access to the country flags, you can include bootstrap-formhelpers-countries.flags.css once alongside the other CSS files.</p>
           <h3>Use cases</h3>
 
-          <p>Example for loading the list of timezones for a country</p>
+          <p>Example for loading the list of languages and selecting a default language</p>
           <form class="bs-docs-example form-inline">
-            <select class="input-medium bfh-timezones" data-country="US"></select>
+            <select class="input-medium bfh-languages" data-language="en"></select>
           </form>
-          <pre class="prettyprint">&lt;select class="input-medium bfh-timezones" data-country="US"&gt;&lt;/select&gt;</pre>
+          <pre class="prettyprint">&lt;select class="input-medium bfh-languages" data-language="en"&gt;&lt;/select&gt;</pre>
 
-          <p>Example for loading the list of timezones for a country in JavaScript</p>
+          <p>Example for loading the list of languages with country names</p>
           <form class="bs-docs-example form-inline">
-            <button onclick="$('#timezones1').bfhtimezones({country: 'US'});return false;" class="btn">Load Timezones</button>
-            <select id="timezones1" class="input-medium"></select>
+            <select class="input-medium bfh-languages" data-language="en_US" data-available="en_US,fr_CA,es_MX"></select>
           </form>
-          <pre class="prettyprint">&lt;button onclick="$('#timezones1').bfhtimezones({country: 'US'})" class="btn"&gt;Load Timezones&lt;/button&gt;
-&lt;select id="timezones1" class="input-medium"&gt;&lt;/select&gt;</pre>
+          <pre class="prettyprint">&lt;select class="input-medium bfh-languages" data-language="en_US" data-available="en_US,fr_CA,es_MX"&gt;&lt;/select&gt;</pre>
 
-          <p>Example for loading the list of timezones using Bootstrap Form Helpers' Select Box</p>
+          <p>Example for loading the list of languages and flags using Bootstrap Form Helpers' Select Box</p>
           <form class="bs-docs-example form-inline">
-            <div class="bfh-selectbox bfh-timezones" data-country="US">
+            <div class="bfh-selectbox bfh-languages" data-language="en_US" data-available="en_US,fr_CA,es_MX" data-flags="true">
               <input type="hidden" value="">
               <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
                 <span class="bfh-selectbox-option input-medium" data-option=""></span>
@@ -152,71 +152,7 @@
               </div>
             </div>
           </form>
-          <pre class="prettyprint">&lt;div class="bfh-selectbox bfh-timezones" data-country="US"&gt;
-  &lt;input type="hidden" value=""&gt;
-  &lt;a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#"&gt;
-    &lt;span class="bfh-selectbox-option input-medium" data-option=""&gt;&lt;/span&gt;
-    &lt;b class="caret"&gt;&lt;/b&gt;
-  &lt;/a&gt;
-  &lt;div class="bfh-selectbox-options"&gt;
-  &lt;div role="listbox"&gt;
-    &lt;ul role="option"&gt;
-    &lt;/ul&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;</pre>
-
-          <p>Example for loading the list of timezones based on a country selector</p>
-          <form class="bs-docs-example form-inline">
-            <select id="countries_timezones1" class="input-medium bfh-countries" data-country="US"></select>
-            <select class="input-medium bfh-timezones" data-country="countries_timezones1"></select>
-          </form>
-          <pre class="prettyprint">&lt;select id="countries_timezones1" class="input-medium bfh-countries" data-country="US"&gt;&lt;/select&gt;
-&lt;select class="input-medium bfh-timezones" data-country="countries_timezones1"&gt;&lt;/select&gt;</pre>
-
-          <p>Example for loading the list of timezones based on a country select using Bootstrap Form Helpers' Select Box</p>
-          <form class="bs-docs-example form-inline">
-            <div id="countries_timezones2" class="bfh-selectbox bfh-countries" data-country="US">
-              <input type="hidden" value="">
-              <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
-                <span class="bfh-selectbox-option input-medium" data-option=""></span>
-                <b class="caret"></b>
-              </a>
-              <div class="bfh-selectbox-options">
-                <div role="listbox">
-                  <ul role="option">
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="bfh-selectbox bfh-timezones" data-country="countries_timezones2">
-              <input type="hidden" value="">
-              <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
-                <span class="bfh-selectbox-option input-medium" data-option=""></span>
-                <b class="caret"></b>
-              </a>
-              <div class="bfh-selectbox-options">
-                <div role="listbox">
-                  <ul role="option">
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </form>
-          <pre class="prettyprint">&lt;div id="countries_timezones2" class="bfh-selectbox bfh-countries" data-country="US"&gt;
-  &lt;input type="hidden" value=""&gt;
-  &lt;a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#"&gt;
-    &lt;span class="bfh-selectbox-option input-medium" data-option=""&gt;&lt;/span&gt;
-    &lt;b class="caret"&gt;&lt;/b&gt;
-  &lt;/a&gt;
-  &lt;div class="bfh-selectbox-options"&gt;
-  &lt;div role="listbox"&gt;
-    &lt;ul role="option"&gt;
-    &lt;/ul&gt;
-  &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="bfh-selectbox bfh-timezones" data-country="countries_timezones2"&gt;
+          <pre class="prettyprint">&lt;div class="bfh-selectbox bfh-languages" data-language="en_US" data-available="en_US,fr_CA,es_MX" data-flags="true"&gt;
   &lt;input type="hidden" value=""&gt;
   &lt;a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#"&gt;
     &lt;span class="bfh-selectbox-option input-medium" data-option=""&gt;&lt;/span&gt;
@@ -230,6 +166,11 @@
   &lt;/div&gt;
 &lt;/div&gt;</pre>
 
+          <p>Example for displaying the language name and flag from language code</p>
+          <form class="bs-docs-example form-inline">
+            <span class="bfh-languages" data-language="en_US" data-flags="true"></span>
+          </form>
+          <pre class="prettyprint">&lt;span class="bfh-languages" data-language="en_US" data-flags="true"&gt;&lt;/span&gt;</pre>
         </section>
 
       </div>
@@ -261,8 +202,9 @@
     <script src="../../assets/js/google-code-prettify/prettify.js"></script>
 
     <script src="../../assets/js/form-helpers/bootstrap-formhelpers-selectbox.js"></script>
-    <script src="../../assets/js/form-helpers/bootstrap-formhelpers-timezones.codes.js"></script>
-    <script src="../../assets/js/form-helpers/bootstrap-formhelpers-timezones.js"></script>
+    <script src="../../assets/js/form-helpers/bootstrap-formhelpers-countries.en_US.js"></script>
+    <script src="../../assets/js/form-helpers/bootstrap-formhelpers-languages.codes.js"></script>
+    <script src="../../assets/js/form-helpers/bootstrap-formhelpers-languages.js"></script>
 
 	<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 </body></html>

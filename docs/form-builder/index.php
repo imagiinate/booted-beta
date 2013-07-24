@@ -21,14 +21,9 @@
   </head>
 
   <body>
-    <a href="https://github.com/minikomi/Bootstrap-Form-Builder/"><img style="z-index: 100000; position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="brand" href="#">Bootstrap Form Builder</a>
-        </div>
-      </div>
-    </div>
+    
+    <?php include '../../include/docs-nav.php'; ?>
+    
     <div class="container">
       <div class="row clearfix">
         <!-- Building Form. -->

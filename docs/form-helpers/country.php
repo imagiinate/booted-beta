@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en"><head>
     <meta charset="utf-8">
-    <title>Currency List - Bootstrap Form Helpers</title>
+    <title>Country List - Bootstrap Form Helpers</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Extend Bootstrap's components with currencies lists.">
-    <meta name="keywords" content="jquery,jquery plugins,twitter bootstrap,bootstrap form,bootstrap form helpers,currencies,currencies list">
+    <meta name="description" content="Extend Bootstrap's components with countries lists.">
+    <meta name="keywords" content="jquery,jquery plugins,twitter bootstrap,bootstrap form,bootstrap form helpers,countries,country list">
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="../../assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../../assets/css/twittstrap.css" rel="stylesheet">
     <link href="../../assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="../../assets/css/bootstrap-formhelpers.css" rel="stylesheet">
     <link href="../../assets/css/bootstrap-formhelpers-countries.flags.css" rel="stylesheet">
     <link href="../../assets/css/bootstrap-formhelpers-currencies.flags.css" rel="stylesheet">
-    <link href="../../assets/css/docs.css" rel="stylesheet">
+    <link href="../../assets/css/form-helpers-docs.css" rel="stylesheet">
     <link href="../../assets/js/google-code-prettify/prettify.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -111,41 +111,41 @@
       </div>
       <div class="span9">
 
-        <!-- Currencies
+        <!-- Countries
         ================================================== -->
-        <section id="currencies">
-            <div class="page-header">
-                <h1>Currencies <small>bootstrap-formhelpers-currencies.js</small></h1>
-            </div>
+        <section id="countries">
+          <div class="page-header">
+            <h1>Countries <small>bootstrap-formhelpers-countries.js</small></h1>
+          </div>
           
-          <h3>About currencies</h3>
-          <p>For adding a drop-down of currencies or display currency name from country code, include bootstrap-formhelpers-currencies.{language}.js and bootstrap-formhelpers-currencies.js once alongside the other JS files.</p>
+          <h3>About countries</h3>
+          <p>For adding a drop-down of countries or display country name from country code, include bootstrap-formhelpers-countries.{language}.js and bootstrap-formhelpers-countries.js once alongside the other JS files.</p>
           <p>If you want to have access to the country flags, you can include bootstrap-formhelpers-countries.flags.css once alongside the other CSS files.</p>
           <h3>Use cases</h3>
 
-          <p>Example for loading the list of currencies and selecting a default currency</p>
+          <p>Example for loading the list of countries and selecting a default country</p>
           <form class="bs-docs-example form-inline">
-            <select class="input-medium bfh-currencies" data-currency="EUR"></select>
+            <select class="input-medium bfh-countries" data-country="US"></select>
           </form>
-          <pre class="prettyprint">&lt;select class="input-medium bfh-currencies" data-currency="EUR"&gt;&lt;/select&gt;</pre>
+          <pre class="prettyprint">&lt;select class="input-medium bfh-countries" data-country="US"&gt;&lt;/select&gt;</pre>
 
-          <p>Example for loading the list of currencies, limited to a specific list of currencies</p>
+          <p>Example for loading the list of countries, limited to a specific list of countries</p>
           <form class="bs-docs-example form-inline">
-            <select class="input-medium bfh-currencies" data-currencyList="USD,AUD,EUR"></select>
+            <select class="input-medium bfh-countries" data-countryList="US,AG,AU"></select>
           </form>
-          <pre class="prettyprint">&lt;select class="input-medium bfh-currencies" data-currencyList="USD,AUD,EUR"&gt;&lt;/select&gt;</pre>
+          <pre class="prettyprint">&lt;select class="input-medium bfh-countries" data-countryList="US,AG,AU"&gt;&lt;/select&gt;</pre>
 
-          <p>Example for loading the list of currencies in JavaScript and selecting a default currency</p>
+          <p>Example for loading the list of countries in JavaScript and selecting a default country</p>
           <form class="bs-docs-example form-inline">
-            <button onclick="$('#currencies1').bfhcurrencies({currency: 'USD'});return false;" class="btn">Load Currencies</button>
-            <select id="currencies1" class="input-medium"></select>
+            <button onclick="$('#countries1').bfhcountries({country: 'US'});return false;" class="btn">Load Countries</button>
+            <select id="countries1" class="input-medium"></select>
           </form>
-          <pre class="prettyprint">&lt;button onclick="$('#currencies1').bfhcurrencies({currency: 'USD'})" class="btn"&gt;Load Currencies&lt;/button&gt;
-&lt;select id="currencies1" class="input-medium"&gt;&lt;/select&gt;</pre>
+          <pre class="prettyprint">&lt;button onclick="$('#countries1').bfhcountries({country: 'US'})" class="btn"&gt;Load Countries&lt;/button&gt;
+&lt;select id="countries1" class="input-medium"&gt;&lt;/select&gt;</pre>
 
-          <p>Example for loading the list of currencies and currencies flags using Bootstrap Form Helpers' Select Box</p>
+          <p>Example for loading the list of countries and flags using Bootstrap Form Helpers' Select Box</p>
           <form class="bs-docs-example form-inline">
-            <div class="bfh-selectbox bfh-currencies" data-currency="EUR" data-flags="true">
+            <div class="bfh-selectbox bfh-countries" data-country="US" data-flags="true">
               <input type="hidden" value="">
               <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
                 <span class="bfh-selectbox-option input-medium" data-option=""></span>
@@ -160,7 +160,7 @@
               </div>
             </div>
           </form>
-          <pre class="prettyprint">&lt;div class="bfh-selectbox bfh-currencies" data-currency="EUR" data-flags="true"&gt;
+          <pre class="prettyprint">&lt;div class="bfh-selectbox bfh-countries" data-country="US" data-flags="true"&gt;
   &lt;input type="hidden" value=""&gt;
   &lt;a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#"&gt;
     &lt;span class="bfh-selectbox-option input-medium" data-option=""&gt;&lt;/span&gt;
@@ -175,14 +175,12 @@
   &lt;/div&gt;
 &lt;/div&gt;</pre>
 
-
-
-          <p>Example for displaying the currency name and currency flag from a currency code</p>
+          <p>Example for displaying the country name and flag from a country code</p>
           <form class="bs-docs-example form-inline">
-              <span class="bfh-currencies" data-currency="XCD" data-flags="true"></span>
+            <span class="bfh-countries" data-country="US" data-flags="true"></span>
           </form>
-          <pre class="prettyprint">&lt;span class="bfh-currencies" data-currency="XCD" data-flags="true"&gt;&lt;/span&gt;</pre>
-       </section>
+          <pre class="prettyprint">&lt;span class="bfh-countries" data-country="US" data-flags="true"&gt;&lt;/span&gt;</pre>
+        </section>
 
       </div>
     </div>
@@ -210,11 +208,11 @@
     <!-- Placed at the end of the document so the pages load faster -->
     
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <script src="../../assets/js/google-code-prettify/prettify.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
 
-    <script src="../../assets/js/form-helpers/bootstrap-formhelpers-selectbox.js"></script>
-    <script src="../../assets/js/form-helpers/bootstrap-formhelpers-currencies.en_US.js"></script>
-    <script src="../../assets/js/form-helpers/bootstrap-formhelpers-currencies.js"></script>
+    <script src="assets/js/form-helpers/bootstrap-formhelpers-selectbox.js"></script>
+    <script src="assets/js/form-helpers/bootstrap-formhelpers-countries.en_US.js"></script>
+    <script src="assets/js/form-helpers/bootstrap-formhelpers-countries.js"></script>
 
 	<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 	

@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en"><head>
     <meta charset="utf-8">
-    <title>Country List - Bootstrap Form Helpers</title>
+    <title>Phone Input - Bootstrap Form Helpers</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Extend Bootstrap's components with countries lists.">
-    <meta name="keywords" content="jquery,jquery plugins,twitter bootstrap,bootstrap form,bootstrap form helpers,countries,country list">
+    <meta name="description" content="Extend Bootstrap's components with phone inputs.">
+    <meta name="keywords" content="jquery,jquery plugins,twitter bootstrap,bootstrap form,bootstrap form helpers,phone,phone inputs">
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="../../assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../../assets/css/twittstrap.css" rel="stylesheet">
     <link href="../../assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="../../assets/css/bootstrap-formhelpers.css" rel="stylesheet">
     <link href="../../assets/css/bootstrap-formhelpers-countries.flags.css" rel="stylesheet">
     <link href="../../assets/css/bootstrap-formhelpers-currencies.flags.css" rel="stylesheet">
-    <link href="../../assets/css/docs.css" rel="stylesheet">
+    <link href="../../assets/css/form-helpers-docs.css" rel="stylesheet">
     <link href="../../assets/js/google-code-prettify/prettify.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -111,75 +111,35 @@
       </div>
       <div class="span9">
 
-        <!-- Countries
+        <!-- Phone
         ================================================== -->
-        <section id="countries">
+        <section id="phone">
           <div class="page-header">
-            <h1>Countries <small>bootstrap-formhelpers-countries.js</small></h1>
+            <h1>Phone <small>bootstrap-formhelpers-phone.js</small></h1>
           </div>
           
-          <h3>About countries</h3>
-          <p>For adding a drop-down of countries or display country name from country code, include bootstrap-formhelpers-countries.{language}.js and bootstrap-formhelpers-countries.js once alongside the other JS files.</p>
-          <p>If you want to have access to the country flags, you can include bootstrap-formhelpers-countries.flags.css once alongside the other CSS files.</p>
+          <h3>About phone</h3>
+          <p>For simple formatting of phone numbers, include bootstrap-formhelpers-phone.format.js and bootstrap-formhelpers-phone.js once alongside the other JS files.</p>
           <h3>Use cases</h3>
 
-          <p>Example for loading the list of countries and selecting a default country</p>
+          <p>Simple example for formatting a phone number in input text</p>
           <form class="bs-docs-example form-inline">
-            <select class="input-medium bfh-countries" data-country="US"></select>
+            <input type="text" class="input-medium bfh-phone" data-format="+1 (ddd) ddd-dddd">
           </form>
-          <pre class="prettyprint">&lt;select class="input-medium bfh-countries" data-country="US"&gt;&lt;/select&gt;</pre>
+          <pre class="prettyprint">&lt;input type="text" class="input-medium bfh-phone" data-format="+1 (ddd) ddd-dddd"&gt;</pre>
 
-          <p>Example for loading the list of countries, limited to a specific list of countries</p>
+          <p>Simple example for displaying a formatted phone number</p>
           <form class="bs-docs-example form-inline">
-            <select class="input-medium bfh-countries" data-countryList="US,AG,AU"></select>
+            <span class="bfh-phone" data-format="+1 (ddd) ddd-dddd" data-number="15555555555"></span>
           </form>
-          <pre class="prettyprint">&lt;select class="input-medium bfh-countries" data-countryList="US,AG,AU"&gt;&lt;/select&gt;</pre>
+          <pre class="prettyprint">&lt;span class="bfh-phone" data-format="+1 (ddd) ddd-dddd" data-number="15555555555"&gt;&lt;/span&gt;</pre>
 
-          <p>Example for loading the list of countries in JavaScript and selecting a default country</p>
+          <p>Example for formatting a phone number based on a country</p>
           <form class="bs-docs-example form-inline">
-            <button onclick="$('#countries1').bfhcountries({country: 'US'});return false;" class="btn">Load Countries</button>
-            <select id="countries1" class="input-medium"></select>
+            <input type="text" class="input-medium bfh-phone" data-country="US">
           </form>
-          <pre class="prettyprint">&lt;button onclick="$('#countries1').bfhcountries({country: 'US'})" class="btn"&gt;Load Countries&lt;/button&gt;
-&lt;select id="countries1" class="input-medium"&gt;&lt;/select&gt;</pre>
+          <pre class="prettyprint">&lt;input type="text" class="input-medium bfh-phone" data-country="US"&gt;</pre>
 
-          <p>Example for loading the list of countries and flags using Bootstrap Form Helpers' Select Box</p>
-          <form class="bs-docs-example form-inline">
-            <div class="bfh-selectbox bfh-countries" data-country="US" data-flags="true">
-              <input type="hidden" value="">
-              <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
-                <span class="bfh-selectbox-option input-medium" data-option=""></span>
-                <b class="caret"></b>
-              </a>
-              <div class="bfh-selectbox-options">
-                <input type="text" class="bfh-selectbox-filter">
-                <div role="listbox">
-                  <ul role="option">
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </form>
-          <pre class="prettyprint">&lt;div class="bfh-selectbox bfh-countries" data-country="US" data-flags="true"&gt;
-  &lt;input type="hidden" value=""&gt;
-  &lt;a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#"&gt;
-    &lt;span class="bfh-selectbox-option input-medium" data-option=""&gt;&lt;/span&gt;
-    &lt;b class="caret"&gt;&lt;/b&gt;
-  &lt;/a&gt;
-  &lt;div class="bfh-selectbox-options"&gt;
-    &lt;input type="text" class="bfh-selectbox-filter"&gt;
-    &lt;div role="listbox"&gt;
-    &lt;ul role="option"&gt;
-    &lt;/ul&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;</pre>
-
-          <p>Example for displaying the country name and flag from a country code</p>
-          <form class="bs-docs-example form-inline">
-            <span class="bfh-countries" data-country="US" data-flags="true"></span>
-          </form>
-          <pre class="prettyprint">&lt;span class="bfh-countries" data-country="US" data-flags="true"&gt;&lt;/span&gt;</pre>
         </section>
 
       </div>
@@ -206,14 +166,11 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <script src="assets/js/google-code-prettify/prettify.js"></script>
 
-    <script src="assets/js/form-helpers/bootstrap-formhelpers-selectbox.js"></script>
-    <script src="assets/js/form-helpers/bootstrap-formhelpers-countries.en_US.js"></script>
-    <script src="assets/js/form-helpers/bootstrap-formhelpers-countries.js"></script>
+    <script src="assets/js/form-helpers/bootstrap-formhelpers-phone.format.js"></script>
+    <script src="assets/js/form-helpers/bootstrap-formhelpers-phone.js"></script>
 
 	<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-	
 </body></html>

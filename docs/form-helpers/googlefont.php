@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en"><head>
     <meta charset="utf-8">
-    <title>Time Picker Input - Bootstrap Form Helpers</title>
+    <title>Google Font List - Bootstrap Form Helpers</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Extend Bootstrap's components with time picker inputs.">
-    <meta name="keywords" content="jquery,jquery plugins,twitter bootstrap,bootstrap form,bootstrap form helpers,timepicker,timepicker input,time picker">
+    <meta name="description" content="Extend Bootstrap's components with google fonts lists.">
+    <meta name="keywords" content="jquery,jquery plugins,twitter bootstrap,bootstrap form,bootstrap form helpers,google fonts,google fonts list">
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="../../assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../../assets/css/twittstrap.css" rel="stylesheet">
     <link href="../../assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="../../assets/css/bootstrap-formhelpers.css" rel="stylesheet">
     <link href="../../assets/css/bootstrap-formhelpers-countries.flags.css" rel="stylesheet">
     <link href="../../assets/css/bootstrap-formhelpers-currencies.flags.css" rel="stylesheet">
-    <link href="../../assets/css/docs.css" rel="stylesheet">
+    <link href="../../assets/css/form-helpers-docs.css" rel="stylesheet">
     <link href="../../assets/js/google-code-prettify/prettify.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -111,122 +111,110 @@
       </div>
       <div class="span9">
 
-        <!-- Time Picker
+        <!-- Google Fonts
         ================================================== -->
-        <section id="timepicker">
+        <section id="googlefonts">
           <div class="page-header">
-            <h1>Time Picker <small>bootstrap-formhelpers-timepicker.js</small></h1>
+            <h1>Google Fonts <small>bootstrap-formhelpers-googlefonts.js</small></h1>
           </div>
           
-          <h3>About Time Picker</h3>
-          <p>For adding a time picker, include bootstrap-formhelpers-timepicker.js once alongside the other JS files.</p>
+          <h3>About Google fonts</h3>
+          <p>For adding a drop-down of Google Fonts, include bootstrap-formhelpers-googlefonts.codes.js and bootstrap-formhelpers-googlefonts.js once alongside the other JS files.</p>
           <h3>Use cases</h3>
 
-          <p>Simplest example.</p>
+          <p>Simplest example, with default selected value.</p>
           <form class="bs-docs-example form-inline">
-            <div class="bfh-timepicker">
-              <div class="input-prepend bfh-timepicker-toggle" data-toggle="bfh-timepicker">
-                <span class="add-on"><i class="icon-time"></i></span>
-                <input type="text" class="input-medium" readonly>
-              </div>
-              <div class="bfh-timepicker-popover">
-                <table class="table">
-                  <tbody>
-                    <tr>
-                      <td class="hour">
-                        <a class="next" href="#"><i class="icon-chevron-up"></i></a><br>
-                        <input type="text" class="input-mini" readonly><br>
-                        <a class="previous" href="#"><i class="icon-chevron-down"></i></a>
-                      </td>
-                      <td class="separator">:</td>
-                      <td class="minute">
-                        <a class="next" href="#"><i class="icon-chevron-up"></i></a><br>
-                        <input type="text" class="input-mini" readonly><br>
-                        <a class="previous" href="#"><i class="icon-chevron-down"></i></a>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+          <div class="bfh-selectbox bfh-googlefonts" data-family="Lato">
+            <input type="hidden" value="">
+            <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
+            <span class="bfh-selectbox-option input-large" data-option=""></span>
+            <b class="caret"></b>
+            </a>
+            <div class="bfh-selectbox-options">
+              <input type="text" class="bfh-selectbox-filter">
+              <div role="listbox">
+                <ul role="option">
+                </ul>
               </div>
             </div>
+          </div>
           </form>
-          <pre class="prettyprint">&lt;div class="bfh-timepicker"&gt;
-  &lt;div class="input-prepend bfh-timepicker-toggle" data-toggle="bfh-timepicker"&gt;
-    &lt;span class="add-on"&gt;&lt;i class="icon-time"&gt;&lt;/i&gt;&lt;/span&gt;
-    &lt;input type="text" class="input-medium" readonly&gt;
+          <pre class="prettyprint">&lt;div class="bfh-selectbox bfh-googlefonts" data-family="Lato"&gt;
+  &lt;input type="hidden" value=""&gt;
+  &lt;a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#"&gt;
+    &lt;span class="bfh-selectbox-option input-large" data-option=""&gt;&lt;/span&gt;
+    &lt;b class="caret"&gt;&lt;/b&gt;
+  &lt;/a&gt;
+  &lt;div class="bfh-selectbox-options"&gt;
+    &lt;input type="text" class="bfh-selectbox-filter"&gt;
+    &lt;div role="listbox"&gt;
+    &lt;ul role="option"&gt;
+    &lt;/ul&gt;
   &lt;/div&gt;
-  &lt;div class="bfh-timepicker-popover"&gt;
-    &lt;table class="table"&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td class="hour"&gt;
-            &lt;a class="next" href="#"&gt;&lt;i class="icon-chevron-up"&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;
-            &lt;input type="text" class="input-mini" readonly&gt;&lt;br&gt;
-            &lt;a class="previous" href="#"&gt;&lt;i class="icon-chevron-down"&gt;&lt;/i&gt;&lt;/a&gt;
-          &lt;/td&gt;
-          &lt;td class="separator"&gt;:&lt;/td&gt;
-          &lt;td class="minute"&gt;
-            &lt;a class="next" href="#"&gt;&lt;i class="icon-chevron-up"&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;
-            &lt;input type="text" class="input-mini" readonly&gt;&lt;br&gt;
-            &lt;a class="previous" href="#"&gt;&lt;i class="icon-chevron-down"&gt;&lt;/i&gt;&lt;/a&gt;
-          &lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
   &lt;/div&gt;
 &lt;/div&gt;</pre>
 
-          <p>Example showing how to set a default time.</p>
+          <p>Display a subset.</p>
           <form class="bs-docs-example form-inline">
-            <div class="bfh-timepicker" data-time="08:00">
-              <div class="input-prepend bfh-timepicker-toggle" data-toggle="bfh-timepicker">
-                <span class="add-on"><i class="icon-time"></i></span>
-                <input type="text" class="input-medium" readonly>
-              </div>
-              <div class="bfh-timepicker-popover">
-                <table class="table">
-                  <tbody>
-                    <tr>
-                      <td class="hour">
-                        <a class="next" href="#"><i class="icon-chevron-up"></i></a><br>
-                        <input type="text" class="input-mini" readonly><br>
-                        <a class="previous" href="#"><i class="icon-chevron-down"></i></a>
-                      </td>
-                      <td class="separator">:</td>
-                      <td class="minute">
-                        <a class="next" href="#"><i class="icon-chevron-up"></i></a><br>
-                        <input type="text" class="input-mini" readonly><br>
-                        <a class="previous" href="#"><i class="icon-chevron-down"></i></a>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
+          <div class="bfh-selectbox bfh-googlefonts" data-subsets="latin-ext">
+            <input type="hidden" value="">
+            <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
+            <span class="bfh-selectbox-option input-large" data-option=""></span>
+            <b class="caret"></b>
+            </a>
+            <div class="bfh-selectbox-options">
+              <input type="text" class="bfh-selectbox-filter">
+              <div role="listbox">
+                <ul role="option">
+                </ul>
               </div>
             </div>
+          </div>
           </form>
-          <pre class="prettyprint">&lt;div class="bfh-timepicker" data-time="08:00"&gt;
-  &lt;div class="input-prepend bfh-timepicker-toggle" data-toggle="bfh-timepicker"&gt;
-    &lt;span class="add-on"&gt;&lt;i class="icon-time"&gt;&lt;/i&gt;&lt;/span&gt;
-    &lt;input type="text" class="input-medium" readonly&gt;
+          <pre class="prettyprint">&lt;div class="bfh-selectbox bfh-googlefonts" data-subsets="latin-ext"&gt;
+  &lt;input type="hidden" value=""&gt;
+  &lt;a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#"&gt;
+    &lt;span class="bfh-selectbox-option input-large" data-option=""&gt;&lt;/span&gt;
+    &lt;b class="caret"&gt;&lt;/b&gt;
+  &lt;/a&gt;
+  &lt;div class="bfh-selectbox-options"&gt;
+    &lt;input type="text" class="bfh-selectbox-filter"&gt;
+    &lt;div role="listbox"&gt;
+    &lt;ul role="option"&gt;
+    &lt;/ul&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
-  &lt;div class="bfh-timepicker-popover"&gt;
-    &lt;table class="table"&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td class="hour"&gt;
-            &lt;a class="next" href="#"&gt;&lt;i class="icon-chevron-up"&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;
-            &lt;input type="text" class="input-mini" readonly&gt;&lt;br&gt;
-            &lt;a class="previous" href="#"&gt;&lt;i class="icon-chevron-down"&gt;&lt;/i&gt;&lt;/a&gt;
-          &lt;/td&gt;
-          &lt;td class="separator"&gt;:&lt;/td&gt;
-          &lt;td class="minute"&gt;
-            &lt;a class="next" href="#"&gt;&lt;i class="icon-chevron-up"&gt;&lt;/i&gt;&lt;/a&gt;&lt;br&gt;
-            &lt;input type="text" class="input-mini" readonly&gt;&lt;br&gt;
-            &lt;a class="previous" href="#"&gt;&lt;i class="icon-chevron-down"&gt;&lt;/i&gt;&lt;/a&gt;
-          &lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
+&lt;/div&gt;</pre>
+
+          <p>Limit font choices.</p>
+          <form class="bs-docs-example form-inline">
+          <div class="bfh-selectbox bfh-googlefonts" data-family="Lato" data-families="Open Sans,Josefin Slab,Avro,Lato,Vollkorn,Abril Fatface,Ubuntu,PT Sans,PT Serif,Old Standard TT,Droid Sans">
+            <input type="hidden" value="">
+            <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
+            <span class="bfh-selectbox-option input-large" data-option=""></span>
+            <b class="caret"></b>
+            </a>
+            <div class="bfh-selectbox-options">
+              <input type="text" class="bfh-selectbox-filter">
+              <div role="listbox">
+                <ul role="option">
+                </ul>
+              </div>
+            </div>
+          </div>
+          </form>
+          <pre class="prettyprint">&lt;div class="bfh-selectbox bfh-googlefonts" data-families="Open Sans,Josefin Slab,Avro,Lato,Vollkorn,Abril Fatface,Ubuntu,PT Sans,PT Serif,Old Standard TT,Droid Sans"&gt;
+  &lt;input type="hidden" value=""&gt;
+  &lt;a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#"&gt;
+    &lt;span class="bfh-selectbox-option input-large" data-option=""&gt;&lt;/span&gt;
+    &lt;b class="caret"&gt;&lt;/b&gt;
+  &lt;/a&gt;
+  &lt;div class="bfh-selectbox-options"&gt;
+    &lt;input type="text" class="bfh-selectbox-filter"&gt;
+    &lt;div role="listbox"&gt;
+    &lt;ul role="option"&gt;
+    &lt;/ul&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;</pre>
 
@@ -260,7 +248,9 @@
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="../../assets/js/google-code-prettify/prettify.js"></script>
 
-    <script src="../../assets/js/form-helpers/bootstrap-formhelpers-timepicker.js"></script>
+    <script src="../../assets/js/form-helpers/bootstrap-formhelpers-selectbox.js"></script>
+    <script src="../../assets/js/form-helpers/bootstrap-formhelpers-googlefonts.codes.js"></script>
+    <script src="../../assets/js/form-helpers/bootstrap-formhelpers-googlefonts.js"></script>
 
 	<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
 </body></html>

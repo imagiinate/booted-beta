@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en"><head>
     <meta charset="utf-8">
-    <title>Date Picker Input - Bootstrap Form Helpers</title>
+    <title>Font Size List - Bootstrap Form Helpers</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Extend Bootstrap's components with date picker inputs.">
-    <meta name="keywords" content="jquery,jquery plugins,twitter bootstrap,bootstrap form,bootstrap form helpers,datepicker,datepicker input,date picker">
+    <meta name="description" content="Extend Bootstrap's components with font sizes lists.">
+    <meta name="keywords" content="jquery,jquery plugins,twitter bootstrap,bootstrap form,bootstrap form helpers,font sizes,font sizes list">
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="../../assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../../assets/css/twittstrap.css" rel="stylesheet">
     <link href="../../assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="../../assets/css/bootstrap-formhelpers.css" rel="stylesheet">
     <link href="../../assets/css/bootstrap-formhelpers-countries.flags.css" rel="stylesheet">
     <link href="../../assets/css/bootstrap-formhelpers-currencies.flags.css" rel="stylesheet">
-    <link href="../../assets/css/docs.css" rel="stylesheet">
+    <link href="../../assets/css/form-helpers-docs.css" rel="stylesheet">
     <link href="../../assets/js/google-code-prettify/prettify.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -111,134 +111,46 @@
       </div>
       <div class="span9">
 
-        <!-- Date Picker
+        <!-- Font Sizes
         ================================================== -->
-        <section id="datepicker">
+        <section id="fontsizes">
           <div class="page-header">
-            <h1>Date Picker <small>bootstrap-formhelpers-datepicker.js</small></h1>
+            <h1>Font Sizes <small>bootstrap-formhelpers-fontsizes.js</small></h1>
           </div>
           
-          <h3>About Date Picker</h3>
-          <p>For adding a date picker, include bootstrap-formhelpers-datepicker.{language}.js and bootstrap-formhelpers-datepicker.js once alongside the other JS files.</p>
+          <h3>About Font Sizes</h3>
+          <p>For adding a drop-down of Font Sizes, include bootstrap-formhelpers-fontsizes.codes.js and bootstrap-formhelpers-fontsizes.js once alongside the other JS files.</p>
           <h3>Use cases</h3>
 
-          <p>Simplest example.</p>
+          <p>Simplest example, with default selected value.</p>
           <form class="bs-docs-example form-inline">
-            <div class="bfh-datepicker">
-              <div class="input-prepend bfh-datepicker-toggle" data-toggle="bfh-datepicker">
-                <span class="add-on"><i class="icon-calendar"></i></span>
-                <input type="text" class="input-medium" readonly>
-              </div>
-              <div class="bfh-datepicker-calendar">
-                <table class="calendar table table-bordered">
-                  <thead>
-                    <tr class="months-header">
-                      <th class="month" colspan="4">
-                        <a class="previous" href="#"><i class="icon-chevron-left"></i></a>
-                        <span></span>
-                        <a class="next" href="#"><i class="icon-chevron-right"></i></a>
-                      </th>
-                      <th class="year" colspan="3">
-                        <a class="previous" href="#"><i class="icon-chevron-left"></i></a>
-                        <span></span>
-                        <a class="next" href="#"><i class="icon-chevron-right"></i></a>
-                      </th>
-                    </tr>
-                    <tr class="days-header">
-                    </tr>
-                  </thead>
-                  <tbody>
-                  </tbody>
-                </table>
+          <div class="bfh-selectbox bfh-fontsizes" data-size="14">
+            <input type="hidden" value="">
+            <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#">
+            <span class="bfh-selectbox-option input-large" data-option=""></span>
+            <b class="caret"></b>
+            </a>
+            <div class="bfh-selectbox-options">
+              <input type="text" class="bfh-selectbox-filter">
+              <div role="listbox">
+                <ul role="option">
+                </ul>
               </div>
             </div>
+          </div>
           </form>
-          <pre class="prettyprint">&lt;div class="bfh-datepicker"&gt;
-  &lt;div class="input-prepend bfh-datepicker-toggle" data-toggle="bfh-datepicker"&gt;
-    &lt;span class="add-on"&gt;&lt;i class="icon-calendar"&gt;&lt;/i&gt;&lt;/span&gt;
-    &lt;input type="text" class="input-medium" readonly&gt;
-  &lt;/div&gt;
-  &lt;div class="bfh-datepicker-calendar"&gt;
-    &lt;table class="calendar table table-bordered"&gt;
-      &lt;thead&gt;
-        &lt;tr class="months-header"&gt;
-          &lt;th class="month" colspan="4"&gt;
-            &lt;a class="previous" href="#"&gt;&lt;i class="icon-chevron-left"&gt;&lt;/i&gt;&lt;/a&gt;
-            &lt;span&gt;&lt;/span&gt;
-            &lt;a class="next" href="#"&gt;&lt;i class="icon-chevron-right"&gt;&lt;/i&gt;&lt;/a&gt;
-          &lt;/th&gt;
-          &lt;th class="year" colspan="3"&gt;
-            &lt;a class="previous" href="#"&gt;&lt;i class="icon-chevron-left"&gt;&lt;/i&gt;&lt;/a&gt;
-            &lt;span&gt;&lt;/span&gt;
-            &lt;a class="next" href="#"&gt;&lt;i class="icon-chevron-right"&gt;&lt;/i&gt;&lt;/a&gt;
-          &lt;/th&gt;
-        &lt;/tr&gt;
-        &lt;tr class="days-header"&gt;
-        &lt;/tr&gt;
-      &lt;/thead&gt;
-      &lt;tbody&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
-  &lt;/div&gt;
-&lt;/div&gt;</pre>
-
-          <p>Example showing how to set a default date and format.</p>
-          <form class="bs-docs-example form-inline">
-            <div class="bfh-datepicker" data-format="y-m-d" data-date="2000-01-01">
-              <div class="input-prepend bfh-datepicker-toggle" data-toggle="bfh-datepicker">
-                <span class="add-on"><i class="icon-calendar"></i></span>
-                <input type="text" class="input-medium" readonly>
-              </div>
-              <div class="bfh-datepicker-calendar">
-                <table class="calendar table table-bordered">
-                  <thead>
-                    <tr class="months-header">
-                      <th class="month" colspan="4">
-                        <a class="previous" href="#"><i class="icon-chevron-left"></i></a>
-                        <span></span>
-                        <a class="next" href="#"><i class="icon-chevron-right"></i></a>
-                      </th>
-                      <th class="year" colspan="3">
-                        <a class="previous" href="#"><i class="icon-chevron-left"></i></a>
-                        <span></span>
-                        <a class="next" href="#"><i class="icon-chevron-right"></i></a>
-                      </th>
-                    </tr>
-                    <tr class="days-header">
-                    </tr>
-                  </thead>
-                  <tbody>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </form>
-          <pre class="prettyprint">&lt;div class="bfh-datepicker" data-format="y-m-d" data-date="2000-01-01"&gt;
-  &lt;div class="input-prepend bfh-datepicker-toggle" data-toggle="bfh-datepicker"&gt;
-    &lt;span class="add-on"&gt;&lt;i class="icon-calendar"&gt;&lt;/i&gt;&lt;/span&gt;
-    &lt;input type="text" class="input-medium" readonly&gt;
-  &lt;/div&gt;
-  &lt;div class="bfh-datepicker-calendar"&gt;
-    &lt;table class="calendar table table-bordered"&gt;
-      &lt;thead&gt;
-        &lt;tr class="months-header"&gt;
-          &lt;th class="month" colspan="4"&gt;
-            &lt;a class="previous" href="#"&gt;&lt;i class="icon-chevron-left"&gt;&lt;/i&gt;&lt;/a&gt;
-            &lt;span&gt;&lt;/span&gt;
-            &lt;a class="next" href="#"&gt;&lt;i class="icon-chevron-right"&gt;&lt;/i&gt;&lt;/a&gt;
-          &lt;/th&gt;
-          &lt;th class="year" colspan="3"&gt;
-            &lt;a class="previous" href="#"&gt;&lt;i class="icon-chevron-left"&gt;&lt;/i&gt;&lt;/a&gt;
-            &lt;span&gt;&lt;/span&gt;
-            &lt;a class="next" href="#"&gt;&lt;i class="icon-chevron-right"&gt;&lt;/i&gt;&lt;/a&gt;
-          &lt;/th&gt;
-        &lt;/tr&gt;
-        &lt;tr class="days-header"&gt;
-        &lt;/tr&gt;
-      &lt;/thead&gt;
-      &lt;tbody&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
+          <pre class="prettyprint">&lt;div class="bfh-selectbox bfh-fontsizes" data-size="14"&gt;
+  &lt;input type="hidden" value=""&gt;
+  &lt;a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#"&gt;
+    &lt;span class="bfh-selectbox-option input-large" data-option=""&gt;&lt;/span&gt;
+    &lt;b class="caret"&gt;&lt;/b&gt;
+  &lt;/a&gt;
+  &lt;div class="bfh-selectbox-options"&gt;
+    &lt;input type="text" class="bfh-selectbox-filter"&gt;
+    &lt;div role="listbox"&gt;
+    &lt;ul role="option"&gt;
+    &lt;/ul&gt;
+    &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;</pre>
 
@@ -268,12 +180,14 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-    <script src="../../assets/js/google-code-prettify/prettify.js"></script>
 
-    <script src="../../assets/js/form-helpers/bootstrap-formhelpers-datepicker.en_US.js"></script>
-    <script src="../../assets/js/form-helpers/bootstrap-formhelpers-datepicker.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+    <script src="assets/js/bootstrap-affix.js"></script>
+
+    <script src="assets/js/form-helpers/bootstrap-formhelpers-selectbox.js"></script>
+    <script src="assets/js/form-helpers/bootstrap-formhelpers-fontsizes.codes.js"></script>
+    <script src="assets/js/form-helpers/bootstrap-formhelpers-fontsizes.js"></script>
 
 	<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-	
 </body></html>
