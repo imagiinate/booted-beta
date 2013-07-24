@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+
+
+<!--
+#######################################
+	- THE HEAD PART -
+######################################
+-->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<title>SLIDER REVOLUTION -  The Responsive Slider jQuery Plugin</title>
+	<link rel="icon" type="image/png" href="images/sitelogo.png" />
+
+
+
+    <!-- commented, remove this line to use IE & iOS favicons -->
+    <link rel="shortcut icon" href="images/favicon.ico" />
+
+
+
+    <!-- get jQuery from the google apis -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.js?ver=3.4.2'></script>
+
+
+    <!-- CSS STYLE -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/preview.css" media="screen" />
+
+
+     <!-- jQuery KenBurn Slider  -->
+	<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+
+	<!-- MODULES ONLY FOR THE DEMONSTATION -->
+	<script type="text/javascript" src="previewjs/preview-normal.js"></script>
+
+
+	<!-- REVOLUTION BANNER CSS SETTINGS -->
+	<link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="rs-plugin/css/captions.css" media="screen" />
+
+	<!-- GOOGLE FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600' rel='stylesheet' type='text/css'>
+
+
+</head>
+
+
+
+<!--
+#######################################
+	- THE BODY PART -
+######################################
+-->
+<body class="body-dark">
+
+		<!--
+			<div id="debug" style="position:fixed; top:10px; left:10px; background:#000; color:#efefef; width:100px; height:100px;z-index:10000;"></div>
+		-->
+		<div class="header">
+			<!-- LOGO AND BUY BUTTON -->
+			<div class="left">
+				<div class="logo"></div>
+			</div>
+			<div class="right">
+				<a href="http://codecanyon.net/item/slider-revolution-responsive-jquery-plugin/2580848"><div class="purchase" style="max-width: 148px; float: right;white-space: nowrap;"><div class="purchase-inside">BUY NOW <strong>FOR $12</strong></div></div></a><div class="clear"></div>
+				<div class="socials" style="margin-top:10px;float:right;">
+								<div id="fb-root"></div><!-- Facebook Plugin Helper DIV -->
+							  <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+								<div class="sharings shtwitter" style="float:left;width:95px;">
+									<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://themes.themepunch.com/?theme=revolution_jq" data-count="horizontal">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+								</div>
+								<div class="sharings shgoogleplus" style="float:left;width:77px;">
+									<div class="g-plusone" data-size="medium" data-count="true"></div>
+								</div>
+								<div class="sharings shfacebook"  style="float:left;width: 75px;z-index:200;">
+									<div class="fb-like" data-href="http://themes.themepunch.com/?theme=revolution_jq" data-send="false" data-layout="button_count" data-width="250" data-show-faces="false" data-font="arial"></div>
+								</div>
+								<script>
+									jQuery(window).load(function(){
+										(function(d, s, id) {
+													if(jQuery(".fb-like").length)  {
+													  var js, fjs = d.getElementsByTagName(s)[0];
+													  if (d.getElementById(id)) return;
+													  js = d.createElement(s); js.id = id;
+													  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=162252937201892";
+													  fjs.parentNode.insertBefore(js, fjs);
+													}
+										}(document, 'script', 'facebook-jssdk'));
+									});
+								</script>
+								<div class="sharings shpinterest"  style="float:left;margin-left:15px;">
+										<a href="http://pinterest.com/pin/create/button/?url=http://themes.themepunch.com/?theme=revolution_jq&amp;media=http://0.s3.envato.com/files/29804575/largepreview.jpg&amp;description=Slider%20Revolution%20Responsive%20jQuery%20Plugin" class="pin-it-button"><img src="//assets.pinterest.com/images/PinExt.png" title="Pin It" /></a>
+																		</div>
+								<div class="clear"></div>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+			<div class="divider"></div>
+
+			<!-- MENU -->
+			<div class="menu">
+				<div class="left">
+					<a class="menupoint red" href="index.html">RESPONSIVE</a>
+					<a class="menupoint" href="index-fullwidth.html">FULL-WIDTH</a>
+					<a class="menupoint" href="index-fullscreen.html" style="position:relative">FULL-SCREEN <img style="position:absolute; left:50%;margin-left:-27px;top:0px;margin-top:-46px;" src="images/slides/new.png"></a>
+					<a class="menupoint" href="../revolution_wp_oldPreview/index.html" target="_blank">EXTRA&nbsp;PREVIEW</a>
+				</div>
+				<div class="right">
+					<a class="menupoint red"href="#video">HOW TO GET STARTED?</a>
+				</div>
+				<div class="clear"></div>
+			</div>
+
+			<div class="divider"></div>
+
+		</div>
+
+		<div class="space30"></div>
+
+
+		<!--
+		#################################
+			- THEMEPUNCH BANNER -
+		#################################
+		-->
+		<div class="padder_wrapper">
+			<div class="bannercontainer responsive">
+					<div class="banner">
+						<ul>
+							<!-- THE FIRST SLIDE -->
+							<li data-transition="fade" data-slotamount="7" data-masterspeed="300" >
+									<img src="images/slides/dummy.png"  alt="lightsplash22" data-lazyload="images/slides/lightsplash22.jpg">
+
+
+									<div class="tp-caption lfl"
+										 data-x="65"
+										 data-y="10"
+										 data-speed="1000"
+										 data-start="800"
+										 data-easing="easeOutExpo"  ><img src="images/slides/woman.png" alt="Image 2"></div>
+
+									<div class="tp-caption sft"
+										 data-x="517"
+										 data-y="349"
+										 data-speed="1000"
+										 data-start="1200"
+										 data-easing="easeOutSine"  ><img src="images/slides/shadow.png" alt="Image 3"></div>
+
+									<div class="tp-caption sfb"
+										 data-x="647"
+										 data-y="235"
+										 data-speed="700"
+										 data-start="1200"
+										 data-easing="easeOutBack"  ><img src="images/slides/corn.png" alt="Image 4"></div>
+
+									<div class="tp-caption sfr"
+										 data-x="536"
+										 data-y="306"
+										 data-speed="700"
+										 data-start="1300"
+										 data-easing="easeOutBack"  ><img src="images/slides/brokkoli.png" alt="Image 5"></div>
+
+									<div class="tp-caption sfl"
+										 data-x="718"
+										 data-y="288"
+										 data-speed="700"
+										 data-start="1400"
+										 data-easing="easeOutBack"  ><img src="images/slides/carrots.png" alt="Image 6"></div>
+
+									<div class="tp-caption sft"
+										 data-x="672"
+										 data-y="358"
+										 data-speed="700"
+										 data-start="1500"
+										 data-easing="easeOutBack"  ><img src="images/slides/tomatoes.png" alt="Image 7"></div>
+
+									<div class="tp-caption modern_medium_fat sft"
+										 data-x="405"
+										 data-y="61"
+										 data-speed="300"
+										 data-start="2000"
+										 data-easing="easeOutExpo"  >EATING FRESH</div>
+
+									<div class="tp-caption modern_medium_light sft"
+										 data-x="586"
+										 data-y="61"
+										 data-speed="300"
+										 data-start="2100"
+										 data-easing="easeOutExpo"  >& STAYING HEALTHY</div>
+
+									<div class="tp-caption modern_big_bluebg sfl"
+										 data-x="406"
+										 data-y="96"
+										 data-speed="300"
+										 data-start="2200"
+										 data-easing="easeOutExpo"  >THIS IS THE ONLY THING...</div>
+
+									<div class="tp-caption modern_small_text_dark sfr"
+										 data-x="408"
+										 data-y="157"
+										 data-speed="600"
+										 data-start="2300"
+										 data-easing="easeOutExpo"  ><i>... Slider Revolution cannot do for you!</i><br/>
+					Its possibilities are absolutely amazing. With the new <b>3.0 Version </b>we<br/> introduced loads of new features like full-screen sliders, lazy loading, fixed<br/> caption alignment positions and much more!</div>
+							</li>
+
+							<li data-transition="3dcurtain-vertical" data-slotamount="10" data-masterspeed="300" data-thumb="images/thumbs/thumb1.jpg">
+										<!-- THE MAIN IMAGE IN THE SLIDE -->
+										<img src="images/slides/slide13.jpg" >
+
+												<!-- THE CAPTIONS OF THE FIRST SLIDE -->
+										<div class="caption large_text sfb"
+											 data-x="44"
+											 data-y="47"
+											 data-speed="300"
+											 data-start="800"
+											 data-easing="easeOutExpo"  >OVER <span style="color: #ffcc00;">8000</span> SATISFIED CUSTOMERS</div>
+
+										<div class="caption randomrotate"
+											 data-x="48"
+											 data-y="131"
+											 data-speed="600"
+											 data-start="1100"
+											 data-easing="easeOutExpo"  ><img src="images/slides/p1.jpg" alt="Image 2"></div>
+
+										<div class="caption randomrotate"
+											 data-x="90"
+											 data-y="206"
+											 data-speed="600"
+											 data-start="1200"
+											 data-easing="easeOutExpo"  ><img src="images/slides/p2.jpg" alt="Image 3"></div>
+
+										<div class="caption randomrotate"
+											 data-x="205"
+											 data-y="140"
+											 data-speed="600"
+											 data-start="1300"
+											 data-easing="easeOutExpo"  ><img src="images/slides/p3.jpg" alt="Image 4"></div>
+
+										<div class="caption randomrotate"
+											 data-x="188"
+											 data-y="246"
+											 data-speed="300"
+											 data-start="1400"
+											 data-easing="easeOutExpo"  ><img src="images/slides/p4.jpg" alt="Image 5"></div>
+
+										<div class="caption randomrotate"
+											 data-x="55"
+											 data-y="316"
+											 data-speed="600"
+											 data-start="1500"
+											 data-easing="easeOutExpo"  ><img src="images/slides/p5.jpg" alt="Image 6"></div>
+
+										<div class="caption randomrotate"
+											 data-x="173"
+											 data-y="329"
+											 data-speed="300"
+											 data-start="1600"
+											 data-easing="easeOutExpo"  ><img src="images/slides/p6.jpg" alt="Image 7"></div>
+
+										<div class="caption randomrotate"
+											 data-x="255"
+											 data-y="294"
+											 data-speed="300"
+											 data-start="1700"
+											 data-easing="easeOutExpo"  ><img src="images/slides/p7.jpg" alt="Image 8"></div>
+
+										<div class="caption randomrotate"
+											 data-x="275"
+											 data-y="166"
+											 data-speed="300"
+											 data-start="1800"
+											 data-easing="easeOutExpo"  ><img src="images/slides/p8.jpg" alt="Image 9"></div>
+
+										<div class="caption randomrotate"
+											 data-x="84"
+											 data-y="113"
+											 data-speed="300"
+											 data-start="1900"
+											 data-easing="easeOutExpo"  ><img src="images/slides/p9.jpg" alt="Image 10"></div>
+
+										<div class="caption randomrotate"
+											 data-x="26"
+											 data-y="225"
+											 data-speed="300"
+											 data-start="2000"
+											 data-easing="easeOutExpo"  ><img src="images/slides/p10.jpg" alt="Image 11"></div>
+
+										<div class="caption randomrotate"
+											 data-x="110"
+											 data-y="187"
+											 data-speed="300"
+											 data-start="2100"
+											 data-easing="easeOutExpo"  ><img src="images/slides/p11.jpg" alt="Image 12"></div>
+
+										<div class="caption randomrotate"
+											 data-x="183"
+											 data-y="221"
+											 data-speed="300"
+											 data-start="2200"
+											 data-easing="easeOutExpo"  ><img src="images/slides/p12.jpg" alt="Image 13"></div>
+							</li>
+
+							<!-- THE SECOND SLIDE -->
+							<li data-transition="papercut" data-slotamount="15" data-masterspeed="300" data-delay="9400" data-thumb="images/thumbs/thumb2.jpg">
+										<img src="images/slides/slide21.jpg" >
+
+										<div class="caption very_big_white lfl stl"
+											 data-x="168"
+											 data-y="303"
+											 data-speed="300"
+											 data-start="500"
+											 data-easing="easeOutExpo" data-end="8800" data-endspeed="300" data-endeasing="easeInSine" >TIMELINED CAPTIONS</div>
+
+										<div class="caption big_white lfl stl"
+											 data-x="168"
+											 data-y="343"
+											 data-speed="300"
+											 data-start="800"
+											 data-easing="easeOutExpo" data-end="9100" data-endspeed="300" data-endeasing="easeInSine" >MOVE CAPTIONS IN AND OUT ON ONE SLIDE</div>
+
+										<div class="caption lft ltb"
+											 data-x="650"
+											 data-y="10"
+											 data-speed="600"
+											 data-start="1100"
+											 data-easing="easeOutExpo" data-end="3100" data-endspeed="600" data-endeasing="easeInSine" ><img src="images/slides/drink1.jpg" alt="Image 3"></div>
+
+										<div class="caption bold_red_text sft stb"
+											 data-x="870"
+											 data-y="300"
+											 data-speed="300"
+											 data-start="1400"
+											 data-easing="easeOutExpo" data-end="3300" data-endspeed="300" data-endeasing="easeInSine" >STRAWBERRY COCTAIL</div>
+
+										<div class="caption big_black sfb stb"
+											 data-x="870"
+											 data-y="330"
+											 data-speed="300"
+											 data-start="1700"
+											 data-easing="easeOutExpo" data-end="3200" data-endspeed="300" data-endeasing="easeInSine" >$ 7.49</div>
+
+										<div class="caption lft ltb"
+											 data-x="650"
+											 data-y="10"
+											 data-speed="600"
+											 data-start="3600"
+											 data-easing="easeOutExpo" data-end="5600" data-endspeed="600" data-endeasing="easeInSine" ><img src="images/slides/drink2.jpg" alt="Image 6"></div>
+
+										<div class="caption bold_brown_text sft stb"
+											 data-x="870"
+											 data-y="300"
+											 data-speed="300"
+											 data-start="3900"
+											 data-easing="easeOutExpo" data-end="5800" data-endspeed="300" data-endeasing="easeInSine" >COKE & RUM</div>
+
+										<div class="caption big_black sfb stb"
+											 data-x="870"
+											 data-y="330"
+											 data-speed="300"
+											 data-start="4200"
+											 data-easing="easeOutExpo" data-end="5700" data-endspeed="300" data-endeasing="easeInSine" >$ 5.99</div>
+
+										<div class="caption lft ltb"
+											 data-x="650"
+											 data-y="10"
+											 data-speed="600"
+											 data-start="6100"
+											 data-easing="easeOutExpo" data-end="8100" data-endspeed="300" data-endeasing="easeInSine" ><img src="images/slides/drink3.jpg" alt="Image 9"></div>
+
+										<div class="caption bold_green_text sft stb"
+											 data-x="870"
+											 data-y="300"
+											 data-speed="300"
+											 data-start="6400"
+											 data-easing="easeOutExpo" data-end="8300" data-endspeed="300" data-endeasing="easeInSine" >MOJITO COCTAIL</div>
+
+										<div class="caption big_black sfb stb"
+											 data-x="870"
+											 data-y="330"
+											 data-speed="300"
+											 data-start="6700"
+											 data-easing="easeOutExpo" data-end="8200" data-endspeed="300" data-endeasing="easeInSine" >$ 6.79</div>
+																		</li>
+															<li data-transition="turnoff" data-slotamount="1" data-masterspeed="300" >
+												<img src="images/slides/slide31.jpg" >
+
+										<div class="caption large_text fade"
+											 data-x="509"
+											 data-y="290"
+											 data-speed="300"
+											 data-start="800"
+											 data-easing="easeOutExpo"  ></div>
+
+										<div class="caption very_large_black_text randomrotate"
+											 data-x="791"
+											 data-y="105"
+											 data-speed="300"
+											 data-start="1100"
+											 data-easing="easeOutExpo"  >SLIDER</div>
+
+										<div class="caption large_black_text randomrotate"
+											 data-x="792"
+											 data-y="171"
+											 data-speed="300"
+											 data-start="1400"
+											 data-easing="easeOutExpo"  >REVOLUTION</div>
+
+										<div class="caption bold_red_text randomrotate"
+											 data-x="795"
+											 data-y="211"
+											 data-speed="300"
+											 data-start="1700"
+											 data-easing="easeOutExpo"  >GOT FULLSCREEN VIDEO</div>
+
+										<div class="caption sfb"
+											 data-x="790"
+											 data-y="233"
+											 data-speed="300"
+											 data-start="2000"
+											 data-easing="easeOutBack"  ><img src="images/slides/video.jpg" alt="Image 7"></div>
+
+										<div class="caption sft"
+											 data-x="789"
+											 data-y="393"
+											 data-speed="300"
+											 data-start="2300"
+											 data-easing="easeOutExpo"  data-linktoslide="4" ><img src="images/slides/videobutton.jpg" alt="Image 8"></div>
+							</li>
+
+							<!-- THE THIRD SLIDE -->
+							<li data-transition="slidedown" data-slotamount="7" data-masterspeed="300" data-thumb="images/thumbs/thumb4.jpg">
+									<img src="images/slides/black.jpg" >
+
+									<div class="caption fade fullscreenvideo" data-autoplay="false" data-x="0" data-y="0" data-speed="500" data-start="510" data-easing="easeOutBack"><iframe src="http://player.vimeo.com/video/22775048?title=0&amp;byline=0&amp;portrait=0;api=1" width="100%" height="100%"></iframe></div>
+
+									<div class="caption big_white sft stt"
+										 data-x="center"
+										 data-y="25"
+										 data-speed="300"
+										 data-start="500"
+										 data-easing="easeOutExpo" data-end="4000" data-endspeed="300" data-endeasing="easeInSine" >Have Fun Watching the Video</div>
+							</li>
+
+							<!-- THE FOURTH SLIDE -->
+							<li data-transition="slideleft" data-slotamount="1" data-masterspeed="300" data-thumb="images/thumbs/thumb5.jpg">
+
+									<img src="images/slides/slide4.jpg" >
+
+									<div class="caption large_text sft"
+										 data-x="70"
+										 data-y="54"
+										 data-speed="300"
+										 data-start="800"
+										 data-easing="easeOutExpo"  >TOUCH ENABLED</div>
+
+									<div class="caption medium_text sfl"
+										 data-x="99"
+										 data-y="92"
+										 data-speed="300"
+										 data-start="1100"
+										 data-easing="easeOutExpo"  >AND</div>
+
+									<div class="caption large_text sfr"
+										 data-x="148"
+										 data-y="88"
+										 data-speed="300"
+										 data-start="1100"
+										 data-easing="easeOutExpo"  ><span style="color: #ffc600;">RESPONSIVE</span></div>
+
+									<div class="caption lfl"
+										 data-x="73"
+										 data-y="202"
+										 data-speed="300"
+										 data-start="1400"
+										 data-easing="easeOutExpo"  ><img src="images/slides/imac.png" alt="Image 4"></div>
+
+									<div class="caption lfl"
+										 data-x="273"
+										 data-y="292"
+										 data-speed="300"
+										 data-start="1500"
+										 data-easing="easeOutExpo"  ><img src="images/slides/ipad.png" alt="Image 5"></div>
+
+									<div class="caption lfl"
+										 data-x="342"
+										 data-y="323"
+										 data-speed="300"
+										 data-start="1600"
+										 data-easing="easeOutExpo"  ><img src="images/slides/iphone.png" alt="Image 6"></div>
+							</li>
+
+
+							<li data-transition="slidevertical" data-slotamount="7" data-masterspeed="600" data-delay="8000" >
+									<img src="images/slides/dummy.png"  alt="airbg" data-lazyload="images/slides/airbg.jpg">
+
+									<div class="tp-caption lfr"
+										 data-x="right" data-hoffset="-201"
+										 data-y="bottom" data-voffset="54"
+										 data-speed="11000"
+										 data-start="550"
+										 data-easing="easeOutExpo"  ><img src="images/slides/cloud2.png" alt="Image 7"></div>
+
+									<div class="tp-caption lfr stl"
+										 data-x="right" data-hoffset="-13"
+										 data-y="center" data-voffset="73"
+										 data-speed="1200"
+										 data-start="500"
+										 data-easing="easeOutSine" data-end="3300" data-endspeed="800" data-endeasing="easeOutSine" ><img src="images/slides/plane.png" alt="Image 1"></div>
+
+									<div class="tp-caption modern_big_bluebg sfl str"
+										 data-x="661"
+										 data-y="157"
+										 data-speed="2000"
+										 data-start="700"
+										 data-easing="easeOutExpo" data-end="4000" data-endspeed="1000" >TIMELINED CAPTIONS</div>
+
+									<div class="tp-caption modern_big_redbg sfr stl"
+										 data-x="761"
+										 data-y="198"
+										 data-speed="2000"
+										 data-start="800"
+										 data-easing="easeOutExpo" data-end="4000" data-endspeed="1000" >OFFER TOTAL CONTROL </div>
+
+									<div class="tp-caption sfl"
+										 data-x="661"
+										 data-y="228"
+										 data-speed="1000"
+										 data-start="3800"
+										 data-easing="easeOutElastic"  ><img src="images/slides/revolve1.png" alt="Image 4"></div>
+
+									<div class="tp-caption sft"
+										 data-x="754"
+										 data-y="221"
+										 data-speed="1000"
+										 data-start="4200"
+										 data-easing="easeOutElastic"  ><img src="images/slides/sliderrev1.png" alt="Image 5"></div>
+
+									<div class="tp-caption sfb"
+										 data-x="755"
+										 data-y="271"
+										 data-speed="1000"
+										 data-start="4600"
+										 data-easing="easeOutElastic"  ><img src="images/slides/versionthree.png" alt="Image 6"></div>
+
+									<div class="tp-caption lfr"
+										 data-x="641"
+										 data-y="33"
+										 data-speed="9000"
+										 data-start="600"
+										 data-easing="easeOutExpo"  ><img src="images/slides/cloud1.png" alt="Image 8"></div>
+								</li>
+						</ul>
+
+
+
+						<div class="tp-bannertimer"></div>
+					</div>
+				</div>
+		</div>
+
+				<div id="unvisible_button"></div>
+
+
+				<div class="space30"></div>
+
+				<div class="configurator">
+
+					<!-- THE 1ST CONFIG FIELD  -- TRANSITIONS -->
+					<div class="one_third configsel">
+						<table>
+						  <tbody>
+						    <tr>
+								<td class="config_title">1</td>
+								<td class="divider"></td>
+							</tr>
+						  </tbody>
+						 </table>
+						<div class="space15"></div>
+						<div class="conftitle">TRANSITION <span>(TAKES IMMEDIATE EFFECT)</span></div>
+						<div class="selecter">
+							<div class="dropdown">
+								<div class="dropcontent">Select a Transition Type</div>
+								<div class="dropbutton"></div>
+								<div class="clear"></div>
+							</div>
+							<select class="selecttransition">
+									<option value="Demo">ORIGINAL PREVIEW</option>
+									<option value="random">&nbsp;&nbsp;&nbsp;Random Transitions</option>
+									<option value="random-standard">STANDARD</option>
+									<option value="boxslide">&nbsp;&nbsp;&nbsp;Box Mask</option>
+									<option value="boxfade">&nbsp;&nbsp;&nbsp;Box Mask Mosaic</option>
+									<option value="slotzoom-horizontal">&nbsp;&nbsp;&nbsp;Slot Zoom Horizontal</option>
+									<option value="slotslide-horizontal">&nbsp;&nbsp;&nbsp;Slot Slide Horizontal</option>
+									<option value="slotfade-horizontal">&nbsp;&nbsp;&nbsp;Slot Fade Horizontal</option>
+									<option value="slotzoom-vertical">&nbsp;&nbsp;&nbsp;Slot Zoom Vertical</option>
+									<option value="slotslide-vertical">&nbsp;&nbsp;&nbsp;Slot Slide Vertical</option>
+									<option value="slotfade-vertical">&nbsp;&nbsp;&nbsp;Slot Fade Vertical</option>
+									<option value="curtain-1">&nbsp;&nbsp;&nbsp;Curtain One</option>
+									<option value="curtain-2">&nbsp;&nbsp;&nbsp;Curtain Two</option>
+									<option value="curtain-3">&nbsp;&nbsp;&nbsp;Curtain Three</option>
+									<option value="slideleft">&nbsp;&nbsp;&nbsp;Slide Left</option>
+									<option value="slideright">&nbsp;&nbsp;&nbsp;Slide Right</option>
+									<option value="slideup">&nbsp;&nbsp;&nbsp;Slide Up</option>
+									<option value="slidedown">&nbsp;&nbsp;&nbsp;Slide Down</option>
+									<option value="fade">&nbsp;&nbsp;&nbsp;Fade</option>
+									<option value="random-premium">PREMIUM</option>
+									<option value="flyin">&nbsp;&nbsp;&nbsp;Fly In</option>
+									<option value="cubic">&nbsp;&nbsp;&nbsp;Cubic</option>
+									<option value="turnoff">&nbsp;&nbsp;&nbsp;Turn Off</option>
+									<option value="3dcurtain-horizontal">&nbsp;&nbsp;&nbsp;3D Curtain Horizontal</option>
+									<option value="3dcurtain-vertical">&nbsp;&nbsp;&nbsp;3D Curtain Vertical</option>
+									<option value="papercut">&nbsp;&nbsp;&nbsp;Paper Cut</option>
+							</select>
+						</div>
+					</div>
+
+
+					<!-- THE 2ND CONFIG FIELD -- ROTATOR -->
+					<div class="one_third configsel">
+						<table>
+						  <tbody>
+						    <tr>
+								<td class="config_title">2</td>
+								<td class="divider"></td>
+							</tr>
+						  </tbody>
+						 </table>
+						 <div class="space15"></div>
+						<div class="rotbutcont">
+							<div style="float:left">
+								<div class="rotator"><div class="rotator-line"></div></div>
+
+							</div>
+							<div style="float:left">
+								<div class="conftitle">ROTATION <span>(SIMPLE TRANSITIONS)</span></div>
+								<div class="rotatefield inputfield">0 degrees</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+
+
+					<!-- THE 3thd CONFIG FIELD -- SLOT AMOUNT -->
+					<div class="one_third last configsel">
+						<table>
+						  <tbody>
+						    <tr>
+								<td class="config_title">3</td>
+								<td class="divider"></td>
+							</tr>
+						  </tbody>
+						 </table>
+						<div class="space15"></div>
+						<div class="conftitle">SLOT AMOUNT <span>(USED IN TRANSITIONS)</span></div>
+						<div class="pmbutcont">
+							<div class="slotamount inputfield" style="float:left;margin-right:5px;width:130px;">Pre Defined Slots</div>
+							<div class="slot plus"></div><div class="slot minus"></div>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div class="clear"></div>
+					<div class="space10"></div>
+
+					<table>
+						  <tbody>
+						    <tr>
+								<td class="config_title">4</td>
+								<td class="divider"></td>
+							</tr>
+						  </tbody>
+					</table>
+
+					<!-- THE 4th CONFIGS WITH THREE DROP DOWN LISTS -->
+					<div class="one_third configsel">
+						<div class="space15"></div>
+						<div class="conftitle">NAVIGATION STYLE</div>
+						<div class="selecter">
+							<div class="dropdown">
+								<div class="dropcontent">Select a Navigation Style</div>
+								<div class="dropbutton"></div>
+								<div class="clear"></div>
+							</div>
+							<select class="selectnavstyle dselect">
+									<option value="round">Round Bullets</option>
+									<option value="navbar">NavBar with Bullets</option>
+									<option value="round-old">Round Bullets (old version)</option>
+									<option value="square-old">Square Bullets (old version)</option>
+									<option value="navbar-old">NavBar with Bullets (old version)</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="one_third configsel">
+
+						<div class="space15"></div>
+						<div class="conftitle ">NAVIGATION ARROWS</div>
+						<div class="selecter">
+							<div class="dropdown">
+								<div class="dropcontent">Select Position of Arrows</div>
+								<div class="dropbutton"></div>
+								<div class="clear"></div>
+							</div>
+							<select class="selectnavarrows dselect">
+									<option value="verticalcentered">Vertical Centered</option>
+									<option value="nexttobullets">Next to Bullets</option>
+									<option value="none">Hide Arrows</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="one_third last configsel">
+
+						<div class="space15"></div>
+						<div class="conftitle">NAVIGATION THUMBS</div>
+						<div class="selecter">
+							<div class="dropdown">
+								<div class="dropcontent">Select Navigation Type</div>
+								<div class="dropbutton"></div>
+								<div class="clear"></div>
+							</div>
+							<select class="selectnavtype dselect">
+									<option value="bullet">Bullets</option>
+									<option value="thumb">Thumbnails</option>
+									<option value="none">No Navigation</option>
+							</select>
+							</select>
+						</div>
+					</div>
+					<div class="clear"></div>
+
+
+
+					<div style="width:100%;height:75px;"></div>
+
+					<!-- What Else do we have ? -->
+					<table>
+							<tbody>
+									<tr>
+										<td class="config_title small">What else can you set ?</td>
+										<td class="divider small"></td>
+									</tr>
+							  </tbody>
+					</table>
+					<div class="space15"></div>
+					<div class="one_third">
+							<div class="infofield">
+								<ul>
+									<li>jQuery 1.7 - jQuery 2.x Supported</li>
+									<li>Easy <span>Align of Captions</span></li>
+									<li>Change <span>Speed of Transitions</span></li>
+									<li>Set <span>Countdown time per slide</span> and/or Global</li>
+									<li>Turn on / off <span>Visibility of Countdown</span></li>
+									<li>Set the <span>Position of Contdown</span></li>
+									<li>Set per slide <span>Link and Target</span></li>
+									<li>Add <span>Unlimited</span> amount of <span>Captions</span></li>
+									<li>Set <span>Start time and speed</span> of Captions</li>
+									<li>Set <span>End time and speed</span> of Captions</li>
+
+								</ul>
+							</div>
+					</div>
+					<div class="one_third">
+							<div class="infofield">
+								<ul>
+									<li><span>FullScreen</span> Support</li>
+									<li><span>HTML5</span> Support to play self hosted videos</li>
+									<li>Set different<span>End and Start Transitions</span> of Captions</li>
+									<li><span>Randomrotate, slide, fade</span> Caption Transitions</li>
+									<li>Turn on/off <span>Hiding Navigation</span> and set delay</li>
+									<li>Set <span>link</span> per Captions</li>
+									<li>Add <span>YouTube and Vimeo</span> Captions</li>
+									<li>Set <span>Fullscreen</span> YouTube and Vimeo Videos</li>
+									<li>Set <span>AutoStart</span> for Videos</li>
+									<li>Video Playback stops Countdown</li>
+
+								</ul>
+							</div>
+					</div>
+					<div class="one_third last">
+							<div class="infofield">
+								<ul>
+									<li>Powerfull CSS Transitions with jQuery FallBack</li>
+									<li>For quicker start use <span>Lazy Loading</span></li>
+									<li>Turn on/off <span>Hover functions</span></li>
+									<li>Set <span>Size and Amount</span> of visible Thumbs</li>
+									<li>Turn on / off <span>Touch</span> functions</li>
+									<li>Choose between 3 different <span>Shadows</span></li>
+									<li>Use <span>Api</span> to stop, play, swap slides, and many more.</li>
+									<li>Set <span>FullWidth</span>,<span>Responsive</span> or <span>Static</span> size.</li>
+									<li>Turn on/off <span>on Hover Stop</span> function</li>
+									<li>Option to <span>Link within the slides</span> via Captions</li>
+								</ul>
+							</div>
+					</div>
+					<div class="clear"></div>
+					<div style="width:100%;height:60px;"></div>
+
+
+					<!-- SOME INFORMATIONS HERE -->
+					<table>
+							<tbody>
+									<tr>
+										<td class="config_title small">Why Use Slider Revolution</td>
+										<td class="divider small"></td>
+									</tr>
+							  </tbody>
+					</table>
+					<div class="space15"></div>
+					<div class="infofield">
+					<span>With an abundance of sliders and banner rotators available on the web, why exactly should you chose Slider Revolution over other products?</span><br>Slider Revolution is a fully developed slide displaying system offering the capability to show images, videos and captions paired with simple, modern and fancy 3D transitions. On top of that, Slider Revolution is fully responsive and mobile optimized and can take on any dimensions.
+					</div>
+
+					<div style="width:100%;height:60px;"></div>
+
+					<!-- SOME INFORMATIONS HERE -->
+					<table>
+							<tbody>
+									<tr>
+										<td class="config_title small">Slider Compatibility</td>
+										<td class="divider small"></td>
+									</tr>
+							  </tbody>
+					</table>
+
+
+					<table class="features">
+						<tbody>
+							<tr class="titles">
+								<td></td>
+								<td>BASIC SLIDER FEATURES</td>
+								<td>SIMPLE TRANSITIONS</td>
+								<td>PREMIUM TRANSITIONS</td>
+								<td>ROTATION</td>
+							</tr>
+
+							<tr>
+								<td>FIREFOX<span> 10+</span></td>
+								<td><div class="yo"></div></td>
+								<td><div class="yo"></div></td>
+								<td><div class="yo"></div></td>
+								<td><div class="yo"></div></td>
+							</tr>
+
+							<tr>
+								<td>WEBKIT<br><span> CHROME,SAFARI,OPERA</td>
+								<td><div class="yo"></div></td>
+								<td><div class="yo"></div></td>
+								<td><div class="yo"></div></td>
+								<td><div class="yo"></div></td>
+							</tr>
+							<tr>
+								<td>IE9</td>
+								<td><div class="yo"></div></td>
+								<td><div class="yo"></div></td>
+								<td><div class="nop"></div></td>
+								<td><div class="nop"></div></td>
+							</tr>
+
+							<tr>
+								<td>IE7 + 8</td>
+								<td><div class="yo"></div></td>
+								<td><div class="yo"></div></td>
+								<td><div class="nop"></div></td>
+								<td><div class="nop"></div></td>
+							</tr>
+						</tbody>
+					</table>
+
+					<div style="width:100%;height:60px;"></div>
+
+					<!-- SOME INFORMATIONS HERE -->
+					<table>
+							<tbody>
+									<tr>
+										<td class="config_title small">Testimonials</td>
+										<td class="divider small"></td>
+									</tr>
+							  </tbody>
+					</table>
+
+					<div class="space15"></div>
+					<div class="slogan">Over 8000+ happy buyers can‘t be wrong!</div>
+
+					<div class="space40"></div>
+					<div class="testimonials">
+						<span>Nicolas-Gilles</span> says:<br>
+						<i>Just to let my testimony of appreciation for the support. Efficiency and speed ! 5/5<br>Good Work</i>
+					</div>
+					<div class="testimonials">
+						<span>rhj123456</span> says:<br>
+						<i>Wow, you did a really great job on this. I have a whole slider built without looking at the docs. I love that.<br>Nice work!!!.</i>
+					</div>
+					<div class="testimonials">
+						<span>tverdouw</span> says:<br>
+						<i>Awesome slider, with awesome options. Thanks!</i>
+					</div>
+					<div class="testimonials">
+						<span>dervish01</span> says:<br>
+						<i>Hi just purchased the plugin and I have to say a great plugin.<br>You can see it at www.acornwebstudio.co.uk<br>really makes websites look great.<br>THANKS .</i>
+					</div>
+					<div class="testimonials">
+						<span>themesplugins</span> says:<br>
+						<i>We selected your plugin as Top 100 Plugins for WordPress.</i>
+					</div>
+					<div class="testimonials">
+						<span>sailo</span> says:<br>
+						<i>Perfect, thanks themepunch </i>
+					</div>
+
+
+					<!-- Video -->
+					<a name="video"></a>
+					<div style="width:100%;height:60px;"></div>
+					<table>
+							<tbody>
+									<tr>
+										<td class="config_title small">How to Install</td>
+										<td class="divider small"></td>
+									</tr>
+							  </tbody>
+					</table>
+					<div class="space15"></div>
+					<div class="one_half">
+						<a id="video_link" href="javascript:loadVideo();"><img src="images/tiles/videopreview.jpg"></a>
+					</div>
+
+		</div> <!-- END OF CONFIGURATOR -->
+
+		<div style="width:100%;height:60px;"></div>
+
+		<script>
+			var api;
+			jQuery(document).ready(function() {
+				 api =  jQuery('.banner').revolution(
+								{
+									delay:5000,
+									startheight:600,
+									startwidth:1170,
+
+									hideThumbs:300,
+
+									thumbWidth:100,							// Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
+									thumbHeight:50,
+									thumbAmount:5,
+
+									navigationType:"both",					//bullet, thumb, none, both		(No Thumbs In FullWidth Version !)
+									navigationArrows:"verticalcentered",		//nexttobullets, verticalcentered, none
+									navigationStyle:"round",				//round,square,navbar
+
+									touchenabled:"on",						// Enable Swipe Function : on/off
+									onHoverStop:"on",						// Stop Banner Timet at Hover on Slide on/off
+
+									navOffsetHorizontal:0,
+									navOffsetVertical:20,
+
+									stopAtSlide:-1,
+									stopAfterLoops:-1,
+
+									shadow:1,								//0 = no Shadow, 1,2,3 = 3 Different Art of Shadows  (No Shadow in Fullwidth Version !)
+									fullWidth:"on"							// Turns On or Off the Fullwidth Image Centering in FullWidth Modus
+								});
+			});
+			function loadVideo(){
+				jQuery("#video_link").html('<iframe id="video_frame" width="960" height="540" src="http://www.youtube.com/embed/t9N36YbFS4c?autoplay=1&fmt=22" frameborder="0" allowfullscreen style="max-width:100%;"></iframe>');
+			}
+		</script>
+
+	</body>
+</html>
