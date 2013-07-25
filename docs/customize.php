@@ -5,7 +5,7 @@
     <title>Customize · Twittstrap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="a responsive web template built with twitter bootstrap, using LESS CSS and managed through github">
-    <meta name="author" content="twittstrap.com">
+    <meta name="author" content="imagiinate.com">
 
     <!-- Le styles -->
     <link href="../assets/css/bootstrap.css" rel="stylesheet">
@@ -32,7 +32,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-41573898-1', 'twittstrap.com');
+  ga('create', 'UA-41573898-1', 'imagiinate.com');
   ga('send', 'pageview');
 -->
 

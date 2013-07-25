@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Booted - Microsoft Modern Buttons</title>
+    <title>Booted - Metro Buttons</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="a responsive web template built with twitter bootstrap font awesome and windows metro buttons, using LESS CSS and managed through github">
     <meta name="author" content="imagiinate.com">
@@ -31,7 +31,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-41573898-1', 'twittstrap.com');
+  ga('create', 'UA-41573898-1', 'imagiinate.com');
   ga('send', 'pageview');
 -->
 
@@ -44,8 +44,8 @@
 
 <div class="jumbotron subhead">
   <div class="container">
-    <h1>Booted - CSS3 Microsoft Modern Buttons</h1>
-    <p>CSS3 Microsoft Modern Buttons helps you easily re-create those stylish buttons used by Microsoft on their websites.</p>
+    <h1>Booted - CSS3 Metro Buttons</h1>
+    <p>CSS3 Metro Buttons helps you easily re-create those stylish buttons used by Microsoft on their websites.</p>
     
     <ul class="masthead-links">
       <li>
@@ -69,7 +69,7 @@
 <div class="marketing">
     <div class="row">
         <div class="container">
-            <h1>Say hello to <strong>CSS3 Microsoft Modern Buttons</strong></h1>
+            <h1>Say hello to <strong>CSS3 Metro Buttons</strong></h1>
             <p>A light-weight and easy-to-use CSS/JS library that uses CSS3 styles for rich button design.</p>
         </div>
     </div>

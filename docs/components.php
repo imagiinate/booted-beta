@@ -5,7 +5,7 @@
     <title>Components · Twittstrap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="a responsive web template built with twitter bootstrap, using LESS CSS and managed through github">
-    <meta name="author" content="twittstrap.com">
+    <meta name="author" content="imagiinate.com">
 
     <!-- Le styles -->
     <link href="../assets/css/bootstrap.css" rel="stylesheet">
@@ -32,7 +32,7 @@
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-41573898-1', 'twittstrap.com');
+  ga('create', 'UA-41573898-1', 'imagiinate.com');
   ga('send', 'pageview');
 -->
 
@@ -2561,7 +2561,7 @@ class="clearfix"
 
         <p><a href="http://glyphicons.com">Glyphicons Free</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
         <p><a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-<p><a href="http://ace-subido.github.io/css3-microsoft-metro-buttons/"> CSS3 Microsoft Modern Buttons</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+<p><a href="http://ace-subido.github.io/css3-microsoft-metro-buttons/"> CSS3 Metro Buttons</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
         <ul class="footer-links">
           <li><a href="http://blog.getbootstrap.com">Blog</a></li>
           <li class="muted">&middot;</li>

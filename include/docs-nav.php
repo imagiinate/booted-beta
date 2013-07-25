@@ -1,4 +1,8 @@
 	
+	 <!-- Font Awesome -->
+<!--     <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet"> -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	
 	
 	<!-- Navbar
     ================================================== -->
@@ -10,36 +14,38 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="/booted-beta/docs/index.php">Booted</a>
+          <a class="brand" href="/booted-beta/index.php"><i class="icon-compass icon-1x"></i> Booted</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
+	          <!-- <li class=""><a href="/booted-beta/"><i class="icon-compass icon-2x"></i></a></li> -->
+	          
 	          <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Built on Bootstrap <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-			          <!--
-			          <li class="">
-		                <a href="/booted-beta/docs/index.php">Docs Home</a>
-		              </li>
-		              -->
-		              <li class="">
-		                <a href="/booted-beta/docs/getting-started.php">Get started</a>
-		              </li>
-		              <li class="">
-		                <a href="/booted-beta/docs/scaffolding.php">Scaffolding</a>
-		              </li>
-		              <li class="">
-		                <a href="/booted-beta/docs/base-css.php">Base CSS</a>
-		              </li>
-		              <li>
-		                <a href="/booted-beta/docs/components.php">Components</a>
-		              </li>
-		              <li class="">
-		                <a href="/booted-beta/docs/javascript.php">JavaScript</a>
-		              </li>
-                  </ul>
-                </li>
-               
-               <li><a href="/booted-beta/docs/form-helpers.php" >Form Helpers</a></li>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><!-- <i class="icon-compass icon-large"> --></i> Built on Bootstrap<b class="caret"></b></a>
+		          	
+		          	<ul class="dropdown-menu">
+	                  	  <li class="">
+			                <a href="/booted-beta/">Booted Home</a>
+			              </li>
+				          <li class="divider"></li>
+			              <li class="nav-header">Bootstrap Docs</li>
+				          <li class="">
+			                <a href="/booted-beta/docs/getting-started.php">Get started</a>
+			              </li>
+			              <li class="">
+			                <a href="/booted-beta/docs/scaffolding.php">Scaffolding</a>
+			              </li>
+			              <li class="">
+			                <a href="/booted-beta/docs/base-css.php">Base CSS</a>
+			              </li>
+			              <li>
+			                <a href="/booted-beta/docs/components.php">Components</a>
+			              </li>
+			              <li class="">
+			                <a href="/booted-beta/docs/javascript.php">JavaScript</a>
+			              </li>
+	                  </ul>
+	                </li>
+	
                
                <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Font Awesome <b class="caret"></b></a>
@@ -65,7 +71,7 @@
                <li class="dropdown">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Built In Themes <b class="caret"></b></a>
 					<ul class="dropdown-menu" id="swatch-menu">
-					  <li><a href="/booted-beta/index.php">Default Bootstrap</a></li>
+					  <li><a href="/booted-beta/themes/default-bootstrap.php">Default Bootstrap</a></li>
 					  <li class="divider"></li>
 					  <li><a href="/booted-beta/themes/twittstrap.php">Twittstrapp</a></li>
 					  <li><a href="/booted-beta/themes/leafstrap.php">Leafstrapp</a></li>
@@ -84,8 +90,10 @@
 					  <li><a href="/booted-beta/themes/superhero.php">Superhero</a></li>
 					  <li><a href="/booted-beta/themes/united.php">United</a></li>
 					</ul>
-					</li>
-              
+				</li>
+					
+              <li><a href="/booted-beta/docs/form-helpers.php" >Form Helpers</a></li>
+               
               <li class="">
                 <a href="/booted-beta/docs/form-builder/index.php">Form Builder</a>
               </li>
