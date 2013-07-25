@@ -14,7 +14,7 @@
     <!-- Le styles -->
     <link href="/booted-beta/assets/css/themes/flatly.css" rel="stylesheet">
     <link href="/booted-beta/assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="/booted-beta/assets/css/bs-docs.css" rel="stylesheet">
+    <link href="/booted-beta/assets/css/themes-preview.css" rel="stylesheet">
     <link href="/booted-beta/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
     
     <!--<link href="/booted-beta/assets/css/font-awesome.min.css" rel="stylesheet">-->
@@ -45,8 +45,7 @@
 
      <div class="container">
 
-	    	<div class="subnav container container-fluid">
-			    <ul class="nav nav-pills">
+	    				    <ul class="nav nav-pills">
 			      <li><a href="#typography">Typography</a></li>
 			      <li><a href="#navbar">Navbar</a></li>
 			      <li><a href="#buttons">Buttons</a></li>
@@ -54,7 +53,6 @@
 			      <li><a href="#tables">Tables</a></li>
 			      <li><a href="#miscellaneous">Miscellaneous</a></li>
 			    </ul>
-			  </div>
 
 
 <!-- Typography

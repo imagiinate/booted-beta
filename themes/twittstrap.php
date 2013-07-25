@@ -12,7 +12,7 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="/booted-beta/assets/css/themes/amelia.css" rel="stylesheet">
+    <link href="/booted-beta/assets/css/themes/twittstrap.css" rel="stylesheet">
     <link href="/booted-beta/assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="/booted-beta/assets/css/themes-preview.css" rel="stylesheet">
     <link href="/booted-beta/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
@@ -33,7 +33,7 @@
 <header class="jumbotron subhead" id="overview">
   <div class="container container-fluid">
     <div class="row-fluid">
-      <h1>Booted - Amelia</h1>
+      <h1>Booted - Twittstrap</h1>
       <!-- <p class="lead">Batman meets... Aquaman?</p> -->
     </div>
     

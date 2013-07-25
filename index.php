@@ -33,13 +33,19 @@
 <header class="jumbotron subhead" id="overview">
   <div class="container container-fluid">
     <div class="row-fluid">
-      <h1>Booted - Twittstrapp</h1>
-      <!-- <p class="lead">Batman meets... Aquaman?</p> -->
+      <h1>Booted - Default Bootstrap Theme</h1>
+      <p class="lead">That's so dope sir.</p>
     </div>
     
   </div>
-  <div class="subnav container container-fluid">
-    <ul class="nav nav-pills">
+  
+</header>
+
+  
+
+    <div class="container">
+
+	<ul class="nav nav-pills">
       <li><a href="#typography">Typography</a></li>
       <li><a href="#navbar">Navbar</a></li>
       <li><a href="#buttons">Buttons</a></li>
@@ -47,14 +53,6 @@
       <li><a href="#tables">Tables</a></li>
       <li><a href="#miscellaneous">Miscellaneous</a></li>
     </ul>
-  </div>
-</header>
-
-  
-
-    <div class="container">
-
-
 
 
 <!-- Typography
