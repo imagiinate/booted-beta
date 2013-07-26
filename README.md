@@ -1,5 +1,6 @@
-booted-pre-beta 0.1 (Updated 7.26.2013) (Based on Twitter Bootstrap Core v2.3.2)
+booted-pre-beta 0.1 
 =================================
+(Updated 7.26.2013) (Based on Twitter Bootstrap Core v2.3.2)
 
 Booted is in a Pre-Beta stage, but regularly updated with full beta launch plans for 11.1.2013. 
 
@@ -18,13 +19,5 @@ Booted is a heavily modified php version of Twitter Bootstrap, Plus, all the goo
 
 LIVE DEMO & DOCUMENTATION
 =================================
+
 http://dev.imagiinate.com/booted-beta/
--
--
--
--
--
--
--
-FOLLOW ME ON TWITTER @imagiin8
-=================================
