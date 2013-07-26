@@ -26,8 +26,80 @@
 	                  	  <li class="">
 			                <a href="/booted-beta/">Booted Home</a>
 			              </li>
+			              <!-- Start Booted Templates -->
+			              <li class="dropdown-submenu">
+			                  <a href="#">Booted Templates</a>
+			                  <ul class="dropdown-menu">
+			                    <li><a href="/booted-beta/starter-template.php">Starter Template</a></li>
+			                    <li><a href="/booted-beta/hero.php">Basic marketing site</a></li>
+			                    <li><a href="/booted-beta/fluid.php">Fluid layout</a></li>
+			                    <li><a href="/booted-beta/marketing-narrow.php">Narrow marketing</a></li>
+			                    <li><a href="/booted-beta/justified-nav.php">Justified nav</a></li>
+			                    <li><a href="/booted-beta/signin.php">Sign in</a></li>
+			                    <li><a href="/booted-beta/sticky-footer.php">Sticky footer</a></li>
+			                    <li><a href="/booted-beta/carousel.php">Carousel jumbotron</a></li>
+			                    
+			                  </ul>
+			                </li>
+			              <!-- End Booted Templates -->
+			              <li class="divider"></li>
+			              <li class="nav-header">Random</li>
+			              <!-- Start Super Submenus -->
+			              <li class="dropdown-submenu">
+			                  <a href="#">Submenus</a>
+			                  <ul class="dropdown-menu">
+			                    <li class="dropdown-submenu">
+					                  <a href="#">Upon Submenus</a>
+					                  <ul class="dropdown-menu">
+					                    <li class="dropdown-submenu">
+						                  <a href="#">Upon Submenus</a>
+						                  <ul class="dropdown-menu">
+						                    <li class="dropdown-submenu">
+							                  <a href="#">Upon Even More...</a>
+							                  <ul class="dropdown-menu">
+							                    <li class="dropdown-submenu">
+								                  <a href="#">Submenus.</a>
+								                  <ul class="dropdown-menu">
+								                    <li><a href="#">Second level link</a></li>
+								                    <li><a href="#">Second level link</a></li>
+								                    <li><a href="#">Second level link</a></li>
+								                    <li><a href="#">Second level link</a></li>
+								                    <li><a href="#">Second level link</a></li>
+								                  </ul>
+								                </li>
+							                    <li><a href="#">Second level link</a></li>
+							                    <li><a href="#">Second level link</a></li>
+							                    <li><a href="#">Second level link</a></li>
+							                    <li><a href="#">Second level link</a></li>
+							                  </ul>
+							                </li>
+
+						                    <li><a href="#">Second level link</a></li>
+						                    <li><a href="#">Second level link</a></li>
+						                    <li><a href="#">Second level link</a></li>
+						                    <li><a href="#">Second level link</a></li>
+						                  </ul>
+						                </li>
+
+					                    <li><a href="#">Second level link</a></li>
+					                    <li><a href="#">Second level link</a></li>
+					                    <li><a href="#">Second level link</a></li>
+					                    <li><a href="#">Second level link</a></li>
+					                  </ul>
+					                </li>
+			                    <li><a href="#">Second level link</a></li>
+			                    <li><a href="#">Second level link</a></li>
+			                    <li><a href="#">Second level link</a></li>
+			                    <li><a href="#">Second level link</a></li>
+			                  </ul>
+			                </li>
+			              <!-- End Super Submenus -->
+			              
+			              
+			              
 				          <li class="divider"></li>
 			              <li class="nav-header">Bootstrap Docs</li>
+			              
 				          <li class="">
 			                <a href="/booted-beta/docs/getting-started.php">Get started</a>
 			              </li>
@@ -43,6 +115,7 @@
 			              <li class="">
 			                <a href="/booted-beta/docs/javascript.php">JavaScript</a>
 			              </li>
+			              
 	                  </ul>
 	                </li>
 	
@@ -56,7 +129,7 @@
                 </li>
               
               <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Microsoft Modern Buttons <b class="caret"></b></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Metro Buttons <b class="caret"></b></a>
                   <ul class="dropdown-menu">
 			          <li class=""><a href="/booted-beta/docs/metro-index.php">Introduction</a></li>
 			          <li class=""><a href="/booted-beta/docs/metro-buttons.php">Metro Buttons</a></li>

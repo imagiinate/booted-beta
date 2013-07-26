@@ -449,7 +449,7 @@
 
         <p><a href="http://glyphicons.com">Glyphicons Free</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
         <p><a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-<p><a href="http://ace-subido.github.io/css3-microsoft-metro-buttons/"> CSS3 Microsoft Modern Buttons</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+<p><a href="http://ace-subido.github.io/css3-microsoft-metro-buttons/"> CSS3 Metro Buttons</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
         <ul class="footer-links">
           <li><a href="http://blog.getbootstrap.com">Blog</a></li>
           
