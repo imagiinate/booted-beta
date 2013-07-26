@@ -1,4 +1,4 @@
-booted-pre-beta 0.1 
+booted pre-beta 0.1 
 =================================
 (Updated 7.26.2013) (Based on Twitter Bootstrap Core v2.3.2)
 
