@@ -7,9 +7,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link href="/booted-beta/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="/booted-beta/assets/css/themes/united.css" rel="stylesheet">
     <link href="/booted-beta/assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="assets/css/custom.css" rel="stylesheet">
+    <link href="/booted-beta/assets/css/bs-docs.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -26,14 +27,14 @@
     
     <header class="jumbotron subhead" id="overview">
 	  <div class="container">
-	    <h1><i class="icon-list-alt"></i>Bootstrap Form Builder, </em>nuff said?</em></h1>
+	    <h1><i class="icon-list-alt"></i> Bootstrap Form Builder, </em>nuff said?</em></h1>
 	    <p class="lead">It's really nice. And Open-Source. So it's also built in.</p>
 	  </div>
 	</header>
 	
-
+<section>
     <div class="container">
-      <div class="row clearfix">
+      <div class="row-fluid clearfix">
         <!-- Building Form. -->
         <div class="span6">
           <div class="clearfix">
@@ -77,7 +78,8 @@
       </div>
 
     </div> <!-- /container -->
-
+</section>
+<?php include '../../include/docs-footer.php'; ?>
     <script data-main="assets/js/main-built.js" src="assets/js/lib/require.js" ></script>
   </body>
 </html>

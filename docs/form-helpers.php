@@ -8,32 +8,32 @@
     <meta name="author" content="imagiinate.com">
     <meta name="keywords" content="jquery,jquery plugins,twitter bootstrap,bootstrap form,bootstrap form helpers,states,states list">
     <!-- Le styles -->
-    <link href="../assets/css/bootstrap.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="../assets/css/bs-docs.css" rel="stylesheet">
-    <link href="../assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="/booted-beta/assets/css/themes/united.css" rel="stylesheet">
+    <link href="/booted-beta/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/booted-beta/assets/css/bs-docs.css" rel="stylesheet">
+    <link href="/booted-beta/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
     
     
      <!-- Le styles -->
-    <link href="../assets/css/bootstrap-formhelpers.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-formhelpers-countries.flags.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-formhelpers-currencies.flags.css" rel="stylesheet">
+    <link href="/booted-beta/assets/css/bootstrap-formhelpers.css" rel="stylesheet">
+    <link href="/booted-beta/assets/css/bootstrap-formhelpers-countries.flags.css" rel="stylesheet">
+    <link href="/booted-beta/assets/css/bootstrap-formhelpers-currencies.flags.css" rel="stylesheet">
     
-<!--     <link href="../assets/css/form-helpers-docs.css" rel="stylesheet"> -->
-    <link href="../assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+<!--     <link href="/booted-beta/assets/css/form-helpers-docs.css" rel="stylesheet"> -->
+    <link href="/booted-beta/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
     
     
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-      <script src="../assets/js/html5shiv.js"></script>
+      <script src="/booted-beta/assets/js/html5shiv.js"></script>
     <![endif]-->
 
     <!-- Le fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/booted-beta/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/booted-beta/assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/booted-beta/assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="/booted-beta/assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="/booted-beta/assets/ico/favicon.png">
 
     <!-- Google analytics 
     <script type="text/javascript">
@@ -1275,15 +1275,7 @@
 
     <!-- Footer
     ================================================== -->
-    <footer class="footer">
-      <div class="container">
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>Designed and built by <a href="http://twitter.com/vincentlamanna" target="_blank">@vincentlamanna</a>.</p>
-        <p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-        <p>Icons from <a href="http://glyphicons.com">Glyphicons Free</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-        <p>Flags from <a href="http://www.gosquared.com">GoSquared</a>, licensed under <a href="../assets/img/bootstrap-formhelpers-countries.flags-LICENSE.txt">GoSquared</a>.</p>
-      </div>
-    </footer>
+    <?php include '../include/docs-footer.php'; ?>
 
 
 
@@ -1292,53 +1284,53 @@
     <!-- Placed at the end of the document so the pages load faster -->
     
     
-    <script src="../assets/js/jquery.js"></script>
-    <script src="../assets/js/bootstrap-transition.js"></script>
-    <script src="../assets/js/bootstrap-alert.js"></script>
-    <script src="../assets/js/bootstrap-modal.js"></script>
-    <script src="../assets/js/bootstrap-dropdown.js"></script>
-    <script src="../assets/js/bootstrap-scrollspy.js"></script>
-    <script src="../assets/js/bootstrap-tab.js"></script>
-    <script src="../assets/js/bootstrap-tooltip.js"></script>
-    <script src="../assets/js/bootstrap-popover.js"></script>
-    <script src="../assets/js/bootstrap-button.js"></script>
-    <script src="../assets/js/bootstrap-collapse.js"></script>
-    <script src="../assets/js/bootstrap-carousel.js"></script>
-    <script src="../assets/js/bootstrap-typeahead.js"></script>
-    <script src="../assets/js/bootstrap-affix.js"></script>
+    <script src="/booted-beta/assets/js/jquery.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-transition.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-alert.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-modal.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-dropdown.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-tab.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-tooltip.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-popover.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-button.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-collapse.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-carousel.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-typeahead.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-affix.js"></script>
     
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-selectbox.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-languages.codes.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-languages.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-currencies.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-fonts.codes.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-fonts.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-fontsizes.codes.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-fontsizes.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-googlefonts.codes.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-googlefonts.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-datepicker.en_US.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-datepicker.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-timepicker.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-phone.format.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-phone.js"></script>
-    
-    
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-countries.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-countries.en_US.js"></script>
+    <script src="/booted-beta/assets/js/form-helpers/bootstrap-formhelpers-selectbox.js"></script>
+    <script src="/booted-beta/assets/js/form-helpers/bootstrap-formhelpers-languages.codes.js"></script>
+    <script src="/booted-beta/assets/js/form-helpers/bootstrap-formhelpers-languages.js"></script>
+    <script src="/booted-beta/assets/js/form-helpers/bootstrap-formhelpers-currencies.js"></script>
+    <script src="/booted-beta/assets/js/form-helpers/bootstrap-formhelpers-fonts.codes.js"></script>
+    <script src="/booted-beta/assets/js/form-helpers/bootstrap-formhelpers-fonts.js"></script>
+    <script src="/booted-beta/assets/js/form-helpers/bootstrap-formhelpers-fontsizes.codes.js"></script>
+    <script src="/booted-beta/assets/js/form-helpers/bootstrap-formhelpers-fontsizes.js"></script>
+    <script src="/booted-beta/assets/js/form-helpers/bootstrap-formhelpers-googlefonts.codes.js"></script>
+    <script src="/booted-beta/assets/js/form-helpers/bootstrap-formhelpers-googlefonts.js"></script>
+    <script src="/booted-beta/assets/js/form-helpers/bootstrap-formhelpers-datepicker.en_US.js"></script>
+    <script src="/booted-beta/assets/js/form-helpers/bootstrap-formhelpers-datepicker.js"></script>
+    <script src="/booted-beta/assets/js/form-helpers/bootstrap-formhelpers-timepicker.js"></script>
+    <script src="/booted-beta/assets/js/form-helpers/bootstrap-formhelpers-phone.format.js"></script>
+    <script src="/booted-beta/assets/js/form-helpers/bootstrap-formhelpers-phone.js"></script>
     
     
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-currencies.en_US.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-states.en_US.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-states.js"></script>
+    <script src="/booted-beta/assets/js/form-helpers/bootstrap-formhelpers-countries.js"></script>
+    <script src="/booted-beta/assets/js/form-helpers/bootstrap-formhelpers-countries.en_US.js"></script>
     
     
-    <script src="../assets/js/holder/holder.js"></script>
-    <script src="../assets/js/google-code-prettify/prettify.js"></script>
+    <script src="/booted-beta/assets/js/form-helpers/bootstrap-formhelpers-currencies.en_US.js"></script>
+    <script src="/booted-beta/assets/js/form-helpers/bootstrap-formhelpers-states.en_US.js"></script>
+    <script src="/booted-beta/assets/js/form-helpers/bootstrap-formhelpers-states.js"></script>
+    
+    
+    <script src="/booted-beta/assets/js/holder/holder.js"></script>
+    <script src="/booted-beta/assets/js/google-code-prettify/prettify.js"></script>
 
-    <script src="../assets/js/application.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-timezones.codes.js"></script>
-    <script src="../assets/js/form-helpers/bootstrap-formhelpers-timezones.js"></script>
+    <script src="/booted-beta/assets/js/application.js"></script>
+    <script src="/booted-beta/assets/js/form-helpers/bootstrap-formhelpers-timezones.codes.js"></script>
+    <script src="/booted-beta/assets/js/form-helpers/bootstrap-formhelpers-timezones.js"></script>
     
     
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>

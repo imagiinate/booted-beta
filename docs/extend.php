@@ -8,22 +8,22 @@
     <meta name="author" content="imagiinate.com">
 
     <!-- Le styles -->
-    <link href="../assets/css/bootstrap.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="../assets/css/bs-docs.css" rel="stylesheet">
-    <link href="../assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="/booted-beta/assets/css/themes/united.css" rel="stylesheet">
+    <link href="/booted-beta/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/booted-beta/assets/css/bs-docs.css" rel="stylesheet">
+    <link href="/booted-beta/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-      <script src="../assets/js/html5shiv.js"></script>
+      <script src="/booted-beta/assets/js/html5shiv.js"></script>
     <![endif]-->
 
     <!-- Le fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/booted-beta/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/booted-beta/assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/booted-beta/assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="/booted-beta/assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="/booted-beta/assets/ico/favicon.png">
 
     <!-- Google analytics 
     <script type="text/javascript">
@@ -207,26 +207,7 @@
 
 
 
-    <!-- Footer
-    ================================================== -->
-    <footer class="footer">
-      <div class="container">
-              <p>Created by <a href="http://twitter.com/imagiin8" target="_blank">@imagiin8</a>.</p>
-        <p>Twitter bootstrap was designed and built with all the love in the world by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
-        <p>Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-
-        <p><a href="http://glyphicons.com">Glyphicons Free</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-        <p><a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-<p><a href="http://ace-subido.github.io/css3-microsoft-metro-buttons/"> CSS3 Metro Buttons</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-        <ul class="footer-links">
-          <li><a href="http://blog.getbootstrap.com">Blog</a></li>
-          <li class="muted">&middot;</li>
-          <li><a href="https://github.com/twittstrap/twittstrap/issues?state=open">Issues</a></li>
-          <li class="muted">&middot;</li>
-          <li><a href="https://github.com/twittstrap/twittstrap/blob/master/CHANGELOG.md">Changelog</a></li>
-        </ul>
-      </div>
-    </footer>
+    <?php include '../include/docs-footer.php'; ?>
 
 
 
@@ -234,25 +215,25 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script src="../assets/js/jquery.js"></script>
-    <script src="../assets/js/bootstrap-transition.js"></script>
-    <script src="../assets/js/bootstrap-alert.js"></script>
-    <script src="../assets/js/bootstrap-modal.js"></script>
-    <script src="../assets/js/bootstrap-dropdown.js"></script>
-    <script src="../assets/js/bootstrap-scrollspy.js"></script>
-    <script src="../assets/js/bootstrap-tab.js"></script>
-    <script src="../assets/js/bootstrap-tooltip.js"></script>
-    <script src="../assets/js/bootstrap-popover.js"></script>
-    <script src="../assets/js/bootstrap-button.js"></script>
-    <script src="../assets/js/bootstrap-collapse.js"></script>
-    <script src="../assets/js/bootstrap-carousel.js"></script>
-    <script src="../assets/js/bootstrap-typeahead.js"></script>
-    <script src="../assets/js/bootstrap-affix.js"></script>
+    <script src="/booted-beta/assets/js/jquery.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-transition.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-alert.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-modal.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-dropdown.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-tab.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-tooltip.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-popover.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-button.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-collapse.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-carousel.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-typeahead.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-affix.js"></script>
 
-    <script src="../assets/js/holder/holder.js"></script>
-    <script src="../assets/js/google-code-prettify/prettify.js"></script>
+    <script src="/booted-beta/assets/js/holder/holder.js"></script>
+    <script src="/booted-beta/assets/js/google-code-prettify/prettify.js"></script>
 
-    <script src="../assets/js/application.js"></script>
+    <script src="/booted-beta/assets/js/application.js"></script>
 
 
   </body>

@@ -8,22 +8,22 @@
     <meta name="author" content="imagiinate.com">
 
     <!-- Le styles -->
-    <link href="../assets/css/bootstrap.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="../assets/css/bs-docs.css" rel="stylesheet">
-    <link href="../assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="/booted-beta/assets/css/themes/united.css" rel="stylesheet">
+    <link href="/booted-beta/assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/booted-beta/assets/css/bs-docs.css" rel="stylesheet">
+    <link href="/booted-beta/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-      <script src="../assets/js/html5shiv.js"></script>
+      <script src="/booted-beta/assets/js/html5shiv.js"></script>
     <![endif]-->
 
     <!-- Le fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/booted-beta/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/booted-beta/assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/booted-beta/assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="/booted-beta/assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="/booted-beta/assets/ico/favicon.png">
 
     <!-- Google analytics 
     <script type="text/javascript">
@@ -83,7 +83,7 @@
             <div class="span6">
               <h2>Download compiled</h2>
               <p><strong>Fastest way to get started:</strong> get the compiled and minified versions of our CSS, JS, and images. No docs or original source files.</p>
-              <p><a class="btn btn-large btn-primary" href="../assets/twittstrap.zip">Download twittstrap</a></p>
+              <p><a class="btn btn-large btn-primary" href="/booted-beta/assets/twittstrap.zip">Download twittstrap</a></p>
             </div>
             <div class="span6">
               <h2>Download source</h2>
@@ -218,21 +218,21 @@
           <ul class="thumbnails bootstrap-examples">
             <li class="span3">
               <a class="thumbnail" href="examples/starter-template.html">
-                <img src="../assets/img/examples/bootstrap-example-starter.png" alt="">
+                <img src="/booted-beta/assets/img/examples/bootstrap-example-starter.png" alt="">
               </a>
               <h4>Starter template</h4>
               <p>A barebones HTML document with all the Bootstrap CSS and JavaScript included.</p>
             </li>
             <li class="span3">
               <a class="thumbnail" href="examples/hero.html">
-                <img src="../assets/img/examples/bootstrap-example-marketing.png" alt="">
+                <img src="/booted-beta/assets/img/examples/bootstrap-example-marketing.png" alt="">
               </a>
               <h4>Basic marketing site</h4>
               <p>Featuring a hero unit for a primary message and three supporting elements.</p>
             </li>
             <li class="span3">
               <a class="thumbnail" href="examples/fluid.html">
-                <img src="../assets/img/examples/bootstrap-example-fluid.png" alt="">
+                <img src="/booted-beta/assets/img/examples/bootstrap-example-fluid.png" alt="">
               </a>
               <h4>Fluid layout</h4>
               <p>Uses our new responsive, fluid grid system to create a seamless liquid layout.</p>
@@ -240,21 +240,21 @@
 
             <li class="span3">
               <a class="thumbnail" href="examples/marketing-narrow.html">
-                <img src="../assets/img/examples/bootstrap-example-marketing-narrow.png" alt="">
+                <img src="/booted-beta/assets/img/examples/bootstrap-example-marketing-narrow.png" alt="">
               </a>
               <h4>Narrow marketing</h4>
               <p>Slim, lightweight marketing template for small projects or teams.</p>
             </li>
             <li class="span3">
               <a class="thumbnail" href="examples/justified-nav.html">
-                <img src="../assets/img/examples/bootstrap-example-justified-nav.png" alt="">
+                <img src="/booted-beta/assets/img/examples/bootstrap-example-justified-nav.png" alt="">
               </a>
               <h4>Justified nav</h4>
               <p>Marketing page with equal-width navigation links in a modified navbar.</p>
             </li>
             <li class="span3">
               <a class="thumbnail" href="examples/signin.html">
-                <img src="../assets/img/examples/bootstrap-example-signin.png" alt="">
+                <img src="/booted-beta/assets/img/examples/bootstrap-example-signin.png" alt="">
               </a>
               <h4>Sign in</h4>
               <p>Barebones sign in form with custom, larger form controls and a flexible layout.</p>
@@ -262,14 +262,14 @@
 
             <li class="span3">
               <a class="thumbnail" href="examples/sticky-footer.html">
-                <img src="../assets/img/examples/bootstrap-example-sticky-footer.png" alt="">
+                <img src="/booted-beta/assets/img/examples/bootstrap-example-sticky-footer.png" alt="">
               </a>
               <h4>Sticky footer</h4>
               <p>Pin a fixed-height footer to the bottom of the user's viewport.</p>
             </li>
             <li class="span3">
               <a class="thumbnail" href="examples/carousel.html">
-                <img src="../assets/img/examples/bootstrap-example-carousel.png" alt="">
+                <img src="/booted-beta/assets/img/examples/bootstrap-example-carousel.png" alt="">
               </a>
               <h4>Carousel jumbotron</h4>
               <p>A more interactive riff on the basic marketing site featuring a prominent carousel.</p>
@@ -301,26 +301,7 @@
 
 
 
-    <!-- Footer
-    ================================================== -->
-    <footer class="footer">
-      <div class="container">
-              <p>Created by <a href="http://twitter.com/imagiin8" target="_blank">@imagiin8</a>.</p>
-        <p>Twitter bootstrap was designed and built with all the love in the world by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
-        <p>Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-
-        <p><a href="http://glyphicons.com">Glyphicons Free</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-        <p><a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-<p><a href="http://ace-subido.github.io/css3-microsoft-metro-buttons/"> CSS3 Metro Buttons</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-        <ul class="footer-links">
-          <li><a href="http://blog.getbootstrap.com">Blog</a></li>
-          <li class="muted">&middot;</li>
-          <li><a href="https://github.com/twittstrap/twittstrap/issues?state=open">Issues</a></li>
-          <li class="muted">&middot;</li>
-          <li><a href="https://github.com/twittstrap/twittstrap/blob/master/CHANGELOG.md">Changelog</a></li>
-        </ul>
-      </div>
-    </footer>
+    <?php include '../include/docs-footer.php'; ?>
 
 
 
@@ -328,25 +309,25 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script src="../assets/js/jquery.js"></script>
-    <script src="../assets/js/bootstrap-transition.js"></script>
-    <script src="../assets/js/bootstrap-alert.js"></script>
-    <script src="../assets/js/bootstrap-modal.js"></script>
-    <script src="../assets/js/bootstrap-dropdown.js"></script>
-    <script src="../assets/js/bootstrap-scrollspy.js"></script>
-    <script src="../assets/js/bootstrap-tab.js"></script>
-    <script src="../assets/js/bootstrap-tooltip.js"></script>
-    <script src="../assets/js/bootstrap-popover.js"></script>
-    <script src="../assets/js/bootstrap-button.js"></script>
-    <script src="../assets/js/bootstrap-collapse.js"></script>
-    <script src="../assets/js/bootstrap-carousel.js"></script>
-    <script src="../assets/js/bootstrap-typeahead.js"></script>
-    <script src="../assets/js/bootstrap-affix.js"></script>
+    <script src="/booted-beta/assets/js/jquery.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-transition.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-alert.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-modal.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-dropdown.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-tab.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-tooltip.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-popover.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-button.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-collapse.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-carousel.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-typeahead.js"></script>
+    <script src="/booted-beta/assets/js/bootstrap-affix.js"></script>
 
-    <script src="../assets/js/holder/holder.js"></script>
-    <script src="../assets/js/google-code-prettify/prettify.js"></script>
+    <script src="/booted-beta/assets/js/holder/holder.js"></script>
+    <script src="/booted-beta/assets/js/google-code-prettify/prettify.js"></script>
 
-    <script src="../assets/js/application.js"></script>
+    <script src="/booted-beta/assets/js/application.js"></script>
 
 
   </body>

@@ -6346,7 +6346,9 @@ div.subnav-fixed {
           border-radius: 0;
 }
 
-.nav-tabs.nav-stacked > li > a:hover {
+.nav .open .dropdown-toggle:hover {color: #ffffff;}
+
+.nav-tabs.nav-stacked > li > a:hover  {
   color: #ffffff;
   background-color: #007fff;
 }
