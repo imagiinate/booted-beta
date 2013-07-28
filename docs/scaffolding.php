@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Scaffolding · Twittstrap</title>
+    <title>Scaffolding · Booted</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="a responsive web template built with twitter bootstrap, using LESS CSS and managed through github">
     <meta name="author" content="imagiinate.com">

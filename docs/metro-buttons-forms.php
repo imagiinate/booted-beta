@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Metro forms · Twittstrap</title>
+    <title>Metro forms · Booted</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="a responsive web template built with twitter bootstrap, using LESS CSS and managed through github">
     <meta name="author" content="imagiinate.com">
@@ -53,20 +53,7 @@
     <h1>Booted - CSS3 Metro Buttons & Forms</h1>
     <p>CSS3 Metro Buttons helps you easily re-create those stylish buttons used by Microsoft on their websites.</p>
     
-    <ul class="masthead-links">
-      <li>
-        <a href="#">GitHub project</a>
-      </li>
-      <li>
-        <a href="#">Examples</a>
-      </li>
-      <li>
-        <a href="#">Extend</a>
-      </li>
-      <li style="color:#FFF">
-        Bootstrap Beta version 0.1 || Built with Twitter Bootstrap Version 2.3.2
-      </li>
-    </ul>
+    
   </div>
 </div>
 

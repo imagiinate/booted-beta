@@ -100,8 +100,12 @@
 <div class="jumbotron subhead">
     <div class="container">
       <h1><i class="icon-code"></i> Code Snippits</h1>
-      <p class="lead">Extend Bootstrap's components—now with 12 custom jQuery plugins.</p>
+      
+    <!--
+  <p class="lead">Extend Bootstrap's components—now with 12 custom jQuery plugins.</p>
       <p class="marketing-byline">Need reasons to love Booted? Look no further.</p>
+    
+-->
     </div>
   </div>
   

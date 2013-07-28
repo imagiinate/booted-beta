@@ -12,9 +12,9 @@
         <ul class="footer-links">
           <li><a href="http://blog.getbootstrap.com">Blog</a></li>
           <li class="muted">&middot;</li>
-          <li><a href="https://github.com/twittstrap/twittstrap/issues?state=open">Issues</a></li>
+          <li><a href="https://github.com/imagiinate/booted-beta/issues?state=open">Issues</a></li>
           <li class="muted">&middot;</li>
-          <li><a href="https://github.com/twittstrap/twittstrap/blob/master/CHANGELOG.md">Changelog</a></li>
+          <li><a href="https://github.com/imagiinate/booted-beta/blob/master/CHANGELOG.md">Changelog</a></li>
         </ul>
       </div>
     </footer>

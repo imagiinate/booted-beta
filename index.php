@@ -76,7 +76,7 @@
         <a href="https://twitter.com/imagiin8" class="twitter-follow-button" data-link-color="#0069D6" data-show-count="true">Follow @imagiin8</a>
       </li>
       <li class="tweet-btn">
-        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://dev.imagiinate.com/booted-beta/" data-count="horizontal" data-via="twittstrap" data-related="imagiin8:Creator of Booted">Tweet</a>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://dev.imagiinate.com/booted-beta/" data-count="horizontal" data-via="imagiin8" data-related="imagiin8: Creator of Booted">Tweet</a>
       </li>
     </ul>
   </div>

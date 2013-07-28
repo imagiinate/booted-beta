@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Getting · Twittstrap</title>
+    <title>Getting · Booted</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="a responsive web template built with twitter bootstrap, using LESS CSS and managed through github">
     <meta name="author" content="imagiinate.com">
@@ -83,12 +83,12 @@
             <div class="span6">
               <h2>Download compiled</h2>
               <p><strong>Fastest way to get started:</strong> get the compiled and minified versions of our CSS, JS, and images. No docs or original source files.</p>
-              <p><a class="btn btn-large btn-primary" href="/booted-beta/assets/twittstrap.zip">Download twittstrap</a></p>
+              <p><a class="btn btn-large btn-primary disabled" href="/booted-beta/assets/Booted.zip">Download Booted</a></p>
             </div>
             <div class="span6">
               <h2>Download source</h2>
               <p>Get the original files for all CSS and JavaScript, along with a local copy of the docs by downloading the latest version directly from GitHub.</p>
-              <p><a class="btn btn-large" href="https://github.com/twittstrap/twittstrap/archive/master.zip" >Download Twittstrap source</a></p>
+              <p><a class="btn btn-large" href="https://github.com/imagiinate/booted-beta/archive/master.zip" >Download Booted source</a></p>
             </div>
           </div>
         </section>
@@ -106,7 +106,7 @@
 <pre class="prettyprint">
   bootstrap/
   ├── css/
-  │   ├── twittstrap.css
+  │   ├── bootstrap.css
   │   ├── bootstrap.min.css
   ├── js/
   │   ├── bootstrap.js
@@ -287,8 +287,8 @@
             <h1>What next?</h1>
           </div>
           <p class="lead">Head to the docs for information, examples, and code snippets, or take the next leap and customize Bootstrap for any upcoming project.</p>
-          <a class="btn btn-large btn-primary" href="./scaffolding.html">Visit the Twittstrap docs</a>
-          <a class="btn btn-large" href="https://github.com/twittstrap/twittstrap/archive/master.zip" style="margin-left: 5px;" >Download twittstrap source</a>
+          <a class="btn btn-large btn-primary" href="./scaffolding.php">Visit the Booted docs</a>
+          <a class="btn btn-large" href="https://github.com/imagiinate/booted-beta/archive/master.zip" style="margin-left: 5px;" >Download Booted source</a>
         </section>
 
 

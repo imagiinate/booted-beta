@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Customize · Twittstrap</title>
+    <title>Customize · Bootstrap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="a responsive web template built with twitter bootstrap, using LESS CSS and managed through github">
     <meta name="author" content="imagiinate.com">
@@ -47,8 +47,8 @@
 ================================================== -->
 <header class="jumbotron subhead" id="overview">
   <div class="container">
-    <h1>Customize and download</h1>
-    <p class="lead"><a href="https://github.com/twittstrap/twittstrap/zipball/master">Download Twittstrap</a> or customize variables, components, JavaScript plugins, and more.</p>
+    <h1>Download</h1>
+    <p class="lead"><a href="https://github.com/imagiinate/booted-beta/archive/master.zip">Download Booted</a></p>
   </div>
 </header>
 

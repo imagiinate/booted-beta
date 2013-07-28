@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Font awesome · Twittstrap</title>
+    <title>Font awesome · Booted</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="a responsive web template built with twitter bootstrap, using LESS CSS and managed through github">
     <meta name="author" content="imagiinate.com">
@@ -53,8 +53,7 @@
 ================================================== -->
 <header class="jumbotron subhead" id="overview">
   <div class="container">
-    <h1>
-    <i class="icon-fire"></i> 58 shiny new icons come with version 3.2.0.</h1>
+    <h1>58 shiny new icons come with version 3.2.0.</h1>
     
     
     <p class="lead">Font Awesome is the hottness right now. You should have it. 

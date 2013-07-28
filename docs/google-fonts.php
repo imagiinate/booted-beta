@@ -70,7 +70,7 @@
 <header class="jumbotron subhead" id="overview">
   <div class="container">
     <h1>Google Web Fonts Preview</h1>
-    <p class="lead">Font Awesome is the hottness right now. You should have it. 
+    <p class="lead">Pick A Google Font. Help the web look better.
     </p>
     
     <form class="form-inline">
