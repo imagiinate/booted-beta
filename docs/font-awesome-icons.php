@@ -52,12 +52,29 @@
 ================================================== -->
 <header class="jumbotron subhead" id="overview">
   <div class="container">
-    <h1>Font awesome icons</h1>
-    <p class="lead"> You asked, Font Awesome delivers with 58 shiny new icons in version 3.2.0.</p>
+    <h1>
+    <i class="icon-compass"></i> Font Awesome Icons
+    <!--
+<i class="icon-smile icon-spin"></i>&nbsp;
+    <i class="icon-cog icon-spin"></i>&nbsp;
+    <i class="icon-location-arrow icon-spin"></i>&nbsp;
+    <i class="icon-remove icon-spin"></i>&nbsp;
+    <i class="icon-star icon-spin"></i>&nbsp;
+    <i class="icon-screenshot icon-spin"></i>&nbsp;
+    <i class="icon-upload icon-spin"></i> &nbsp;
+-->
+    
+    </h1>
+    <p class="lead">Font Awesome has 58 shiny new icons with version 3.2.0.
+    </p>
+    <a href="/booted-beta/docs/font-awesome-example.php" class="btn btn-primary btn-large" style="color:#fff;">Show me documentation <i class="icon-chevron-sign-right"></i></a>
   </div>
 </header>
 
   <div class="container">
+  <br />
+<h1 class="page-header">The complete set of 361 Font Awesome Icons</h1>
+
 <div id="new">
   <h2 class="page-header">New Icons in 3.2.0</h2>
   

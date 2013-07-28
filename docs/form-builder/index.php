@@ -26,8 +26,8 @@
     
     <header class="jumbotron subhead" id="overview">
 	  <div class="container">
-	    <h1>Form Builder</h1>
-	    <p class="lead">After you get up and running, you can place Font Awesome icons just about anywhere with the <code>&lt;i&gt;</code> tag. Many examples appreciatively re-used from the Bootstrap documentation. .</p>
+	    <h1><i class="icon-list-alt"></i>Bootstrap Form Builder, </em>nuff said?</em></h1>
+	    <p class="lead">It's really nice. And Open-Source. So it's also built in.</p>
 	  </div>
 	</header>
 	

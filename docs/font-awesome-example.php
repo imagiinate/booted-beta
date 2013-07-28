@@ -53,8 +53,13 @@
 ================================================== -->
 <header class="jumbotron subhead" id="overview">
   <div class="container">
-    <h1>Font awesome</h1>
-    <p class="lead">After you get up and running, you can place Font Awesome icons just about anywhere with the <code>&lt;i&gt;</code> tag. Many examples appreciatively re-used from the Bootstrap documentation. .</p>
+    <h1>
+    <i class="icon-fire" style="color:#ff9900;"></i> Font Awesome, built in. </h1>
+    
+    
+    <p class="lead">Font Awesome is the hottness right now. You should have it.
+    </p>
+    <a href="/booted-beta/docs/font-awesome-icons.php" class="btn btn-primary btn-large" style="color:#fff;">Show me the icons <i class="icon-chevron-sign-right"></i></a>
   </div>
 </header>
 
@@ -81,8 +86,8 @@
         </ul>
       </div>
       <div class="span9">
-
-
+<br />
+<h1 class="page-header">Font Awesome Documentation</h1>
 
         <!-- Global Bootstrap settings
         ================================================== -->

@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="a responsive web template built with twitter bootstrap font awesome and windows metro buttons, using LESS CSS and managed through github">
     <meta name="author" content="imagiinate.com">
-
+    <!-- Theme -->
+    
     <!-- Le styles -->
     <link href="/booted-beta/assets/css/bootstrap.css" rel="stylesheet">
     <link href="/booted-beta/assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="/booted-beta/assets/css/bs-docs.css" rel="stylesheet">
     <link href="/booted-beta/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
-
+    
+    <link href="/booted-beta/assets/css/themes/andida.css" rel="stylesheet">
+    
+    
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="/booted-beta/assets/js/html5shiv.js"></script>
@@ -44,7 +48,7 @@
  
 <div class="jumbotron masthead">
   <div class="container">
-    <h1>Booted</h1>
+    <h1><img src="assets/img/boot_brand.png" alt="Booted" style="width: 100px; height: auto;"> Booted</h1>
     <p>Sleek, intuitive, and powerful front-end framework for faster and easier web development.</p>
     <p>
       <a href="#" class="btn btn-primary btn-large disabled">Download Booted (Coming Soon)</a>
