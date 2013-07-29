@@ -33,18 +33,34 @@
   </head>
 
 <style>
+
 	.footer {margin-top:0px;}
 	.well-checkered {padding-top: 20px; padding-bottom:40px;background-image:url(/booted-beta/assets/img/patterns/png/bright_squares.png); background-repeat:repeat;}
+	
+	
+	@media only screen and (min-width: 980px){
+		.masthead h1 {font-size: 190px!important;}
+		.masthead img {height: 200px; width: auto;}
+	}
+	
 	@media only screen and (max-width: 767px){
 		.well-checkered {
-		margin-left: -30px;
-		margin-right: -30px;
-		padding-left: 30px;
-		padding-right: 30px;
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
 		padding-top: 0px; padding:bottom:30px;
 		}
-	
+		.masthead h1 {font-size: 120px;}
+		.masthead img {height: 100px; width: auto;}
 	}
+	
+	
+	@media only screen and (max-width: 480px){
+		.masthead h1 {font-size: 120px!important;}
+		.masthead img {height: 50px; width: auto;}
+	}
+	
 </style>
   <body style="margin-top:0px;" data-spy="scroll" data-target=".bs-docs-sidebar">
 
@@ -52,7 +68,7 @@
  
 <div class="jumbotron masthead">
   <div class="container">
-    <h1 style="font-size:130px;"><img src="/booted-beta/assets/img/boot_brand.png" alt="Booted" style="width: 150px; height: auto;"> Booted</h1>
+    <h1><img src="/booted-beta/assets/img/boot_brand.png" alt="Booted" style="width: 150px; height: auto;"> Booted</h1>
     <p>A Bootstrap Base With <i class="icon-gift"></i> Goodies.</p>
     <p>
       <a href="https://github.com/imagiinate/booted-beta" class="btn btn-primary btn-large">Download Booted RC1.0</a>
@@ -102,23 +118,22 @@
 	      <div class="span3">
 	        <h2><i class="icon-flag"></i> Font Awesome</h2>
 	        <p>Font Awesome is the hottness right now. You should have it.</p>
-	        <a href="#" class="link">Font Awesome <i class="icon-chevron-sign-right"></i></a>
+	        <a href="docs/font-awesome.php" class="link">Font Awesome <i class="icon-chevron-sign-right"></i></a>
 	      </div>
 	      <div class="span3">
 	        <h2><i class="icon-calendar"></i> Form Helpers</h2>
 	        <p>Extend Bootstrap's components—now with 12 custom jQuery plugins.</p>
-	        <a href="#" class="link">Form Helpers <i class="icon-chevron-sign-right"></i></a>
+	        <a href="form-helpers.php" class="link">Form Helpers <i class="icon-chevron-sign-right"></i></a>
 	      </div>
 	      
 	      <div class="span3">
 	        <h2><i class="icon-eye-open"></i> FancyBox</h2>
 	        <p>What would a framework be without a great photo viewer?</p>
-	        <a href="#" class="link">FancyBox <i class="icon-chevron-sign-right"></i></a>
+	        <a href="fancybox.php" class="link">FancyBox <i class="icon-chevron-sign-right"></i></a>
 	      </div>
 	      <div class="span3">
 	        <h2><i class="icon-magic"></i> Bootswatch</h2>
 	        <p>All 16 Free, Open Source Bootstrap Themes Included.</p>
-	        <a href="#" class="link">Bootswatch <i class="icon-chevron-sign-right"></i></a>
 	      </div>
     </div>
     <br />
@@ -126,22 +141,22 @@
 	      <div class="span3">
 	        <h2><i class="icon-windows"></i> Metro Buttons</h2>
 	        <p>CSS3 Metro Buttons. Built In.</p>
-	        <a href="#" class="link">Metro Buttons <i class="icon-chevron-sign-right"></i></a>
+	        <a href="docs/metro-buttons-forms.php" class="link">Metro Buttons <i class="icon-chevron-sign-right"></i></a>
 	      </div>
 	      <div class="span3">
 	        <h2><i class="icon-tasks"></i> Form Builder</h2>
 	        <p>It's really nice. And Open-Source. So it's also built in.</p>
-	        <a href="#" class="link">Form Builder <i class="icon-chevron-sign-right"></i></a>
+	        <a href="docs/form-builder/" class="link">Form Builder <i class="icon-chevron-sign-right"></i></a>
 	      </div>
 	      <div class="span3">
 	        <h2><i class="icon-code"></i> Snippits</h2>
 	        <p>Just wait until you see the code we've booted.</p>
-	        <a href="#" class="link">Snippits <i class="icon-chevron-sign-right"></i></a>
+	        <a href="code-snippits.php" class="link">Snippits <i class="icon-chevron-sign-right"></i></a>
 	      </div>
 	      <div class="span3">
 	        <h2><i class="icon-picture"></i> Patterns</h2>
 	        <p>Need <em>more</em> reasons to love Booted? Hundreds Included.</p>
-	        <a href="#" class="link">Patterns <i class="icon-chevron-sign-right"></i></a>
+	        <a href="docs/patterns.php" class="link">Patterns <i class="icon-chevron-sign-right"></i></a>
 	      </div>
     </div>
     <br />
@@ -150,13 +165,13 @@
 	      <div class="span3">
 	        <h2><i class="icon-font"></i> Web Fonts</h2>
 	        <p>Google Web Fonts Preview. Check it out!</p>
-	        <a href="#" class="link">Web Fonts <i class="icon-chevron-sign-right"></i></a>
+	        <a href="docs/google-fonts.php" class="link">Web Fonts <i class="icon-chevron-sign-right"></i></a>
 	      </div>
 	      
 	      <div class="span3">
 	        <h2><i class="icon-globe"></i> Google Maps</h2>
 	        <p>Gmaps.js. Google Maps made easy.</p>
-	        <a href="#" class="link">Google Maps <i class="icon-chevron-sign-right"></i></a>
+	        <a href="docs/maps.php" class="link">Google Maps <i class="icon-chevron-sign-right"></i></a>
 	      </div>
 	      
 	      <div class="span3">

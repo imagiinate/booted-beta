@@ -39,6 +39,24 @@
 </script>
   </head>
   
+  
+
+  <body style="margin-top:0px;" data-spy="scroll" data-target=".bs-docs-sidebar">
+
+  <?php include 'include/docs-nav.php'; ?>
+ 
+<div class="jumbotron subhead">
+    <div class="container">
+      <h1><i class="icon-code"></i> Code Snippits</h1>
+      
+    <!--
+  <p class="lead">Extend Bootstrap's components—now with 12 custom jQuery plugins.</p>
+      <p class="marketing-byline">Need reasons to love Booted? Look no further.</p>
+    
+-->
+    </div>
+  </div>
+  
   <style>
   	
   	@media only screen and (min-width: 180px){
@@ -91,25 +109,40 @@
 		  .carousel h1 {line-height: 34px;}
 		 
       }
-  </style>
-
-  <body style="margin-top:0px;" data-spy="scroll" data-target=".bs-docs-sidebar">
-
-  <?php include 'include/docs-nav.php'; ?>
- 
-<div class="jumbotron subhead">
-    <div class="container">
-      <h1><i class="icon-code"></i> Code Snippits</h1>
       
-    <!--
-  <p class="lead">Extend Bootstrap's components—now with 12 custom jQuery plugins.</p>
-      <p class="marketing-byline">Need reasons to love Booted? Look no further.</p>
-    
--->
-    </div>
-  </div>
-  
-  
+      @media only screen and (min-width: 1400px){
+	      .carousel.carousel-fade .item {
+		  height: 700px;
+		  width: 100%;
+		  }
+		  
+		  div.carousel img {
+			margin: 0px auto;
+			width: auto;
+			height: auto;
+			min-height: 100%;
+			max-height: 700px;
+		  }
+			
+			
+		  .carousel h1 {line-height: 69px; font-size: 80px;
+			  
+		  }
+		  
+		  .carousel-control.left {left: 60px;}
+		  .carousel-control.right {right: 60px;}
+		  .carousel-caption {padding:10px 50px;}
+		  .carousel h1 {line-height: 134px; font-size: 120px;}
+		  .carousel p.lead {
+			
+			
+			font-size: 36px;
+			
+			line-height: 69px;
+			
+			}
+      }
+  </style>
 
 
 <div id="myCarousel" class="carousel slide carousel-fade">
