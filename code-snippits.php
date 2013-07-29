@@ -779,7 +779,7 @@
 		
 		   
 		<!-- Price Table -->  
-		<div class="row-fluid">
+		<div class="row-fluid" style="overflow:auto;">
 			<div class="span12">
 				
 				<table class="table table-condensed table-hover">
